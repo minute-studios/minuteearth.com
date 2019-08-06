@@ -71,8 +71,9 @@ $danger:  $red;
 // Typography
 
 // 'Lato' was the runner up
-$family-sans-serif: 'Source Sans Pro', BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
-$family-monospace: latin-modern-mono, monospace !default;
+$family-sans-serif: 'Roboto', BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
+$family-heading: 'Roboto Slab', $family-sans-serif;
+$family-monospace: monospace !default;
 $render-mode: optimizeLegibility !default;
 
 $size-1: 3rem !default;
@@ -90,7 +91,7 @@ $weight-medium: 400 !default;
 $weight-semibold: 500 !default;
 $weight-bold: 600 !default;
 
-$text: $black-ter;
+$text: $grey-dark;
 
 // Responsiveness
 

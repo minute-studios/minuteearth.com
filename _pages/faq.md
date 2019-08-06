@@ -8,7 +8,7 @@ section: faq
 
 ## Who are you?
 
-We’re a group of scientists, writers, and illustrators with a passion for sharing our curiosity (and where it leads!) with the world. We’re also people - visit our [About]({% link about.md %}) page to meet the MinuteEarth team.
+We’re a group of scientists, writers, and illustrators with a passion for sharing our curiosity (and where it leads!) with the world. We’re also people - visit our [About](/about) page to meet the MinuteEarth team.
 
 ## How did MinuteEarth start?
 
@@ -30,10 +30,18 @@ Great! Want to share it with us? Even better. Leave us a comment on YouTube, mes
 
 Besides the software between our ears, we use lots of tools both to produce our scripts and videos, and to help us communicate and stay organized across long distances (we live and work in many places and time zones). With the caveat that these are by no means the only available tools out there for doing what we do, here's a quick list of our go-to tools: we research with the help of Google Scholar, write and edit in Google Docs, stay organized with a modified version of Google Sheets (which we affectionately call Little Skynet), record narration with Audio Technica AT2020 USB mics, and draw on Wacom tablets. For composing illustrations, and audio and video editing, we rely heavily on the Adobe Creative Suite: Photoshop for illustrating, Audition for audio editing, Premiere for video editing, After Effects for animation (and, well, effects). We communicate using (primarily) Slack and Google Hangouts, sketch out ideas with screen-drawing tools like Highlight/Epic Pen, share files using Dropbox, keep checklists using Trello...and keep our sanity using good old moral support. And most of us do it all on macbooks, although some of us are on the dark side and use PCs. Check out our behind-the-scenes videos to learn more about how we do what we do.
 
-<iframe width="313" height="176" src="https://www.youtube.com/embed/tnIZybxCW1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="313" height="176" src="https://www.youtube.com/embed/3A_rXJgDxGI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="columns is-multiline">
+<div class="column is-half">
+<responsive-embed :ratio="16/9">
+  <iframe width="313" height="176" src="https://www.youtube.com/embed/tnIZybxCW1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</responsive-embed>
+</div>
+<div class="column is-half">
+<responsive-embed :ratio="16/9">
+  <iframe width="313" height="176" src="https://www.youtube.com/embed/3A_rXJgDxGI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</responsive-embed>
+</div>
+</div>
 
 ## You made a mistake in a video.
 
@@ -87,19 +95,34 @@ Sure! We really like talking in person with people, so [send us an invitation][e
 
 Yep! Read Henry's article [The Secret to Making Good Content](https://medium.com/@henryreich/the-secret-to-making-good-content-e2b3454e9ec8). And watch these videos:
 
-<iframe width="313" height="176" src="https://www.youtube.com/embed/YoQcg39Krvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="313" height="176" src="https://www.youtube.com/embed/QLIKgT-OSLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="313" height="176" src="https://www.youtube.com/embed/0fjE1A80w2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="313" height="176" src="https://www.youtube.com/embed/vhRjMFRChSg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="columns is-multiline">
+<div class="column is-half">
+<responsive-embed :ratio="16/9">
+  <iframe width="313" height="176" src="https://www.youtube.com/embed/YoQcg39Krvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</responsive-embed>
+</div>
+<div class="column is-half">
+<responsive-embed :ratio="16/9">
+  <iframe width="313" height="176" src="https://www.youtube.com/embed/QLIKgT-OSLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</responsive-embed>
+</div>
+<div class="column is-half">
+<responsive-embed :ratio="16/9">
+  <iframe width="313" height="176" src="https://www.youtube.com/embed/0fjE1A80w2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</responsive-embed>
+</div>
+<div class="column is-half">
+<responsive-embed :ratio="16/9">
+  <iframe width="313" height="176" src="https://www.youtube.com/embed/vhRjMFRChSg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</responsive-embed>
+</div>
+</div>
 
 ## Can I re-upload your video or use it in my museum/conference/exhibition/TV show/school/translate it/etc?
 
 It depends. If you’re looking to license the videos, please email us. We generally allow non-commercial, freely available, educational use by non-profits. That is, if you want to use our videos (1) for educational purposes, (2) your organization is a 501c3 non-profit (or equivalent), (3) no money or financial transaction is required for people to be able to see the video and no ads are shown alongside the video nor is any other revenue being made off of its use in any way, and (4) you do no editing, other than dubbed translations, nor do you add other promotional material (ads, promotions, sponsorships, announcements, etc) to the video, then we will probably be happy to let you use the video for free. Either way, please get in touch via [email][email]. This FAQ does NOT constitute permission to use any of our videos.
 
 [email]: mailto:{{ site.social.email }}
-[partners]: {% link partners.md %}
+[partners]: /partners
 [patreon]: {{ site.social.patreon }}
 [translate]: https://support.google.com/youtube/answer/6054623?hl=en

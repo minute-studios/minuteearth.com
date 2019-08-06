@@ -4,7 +4,9 @@ layout: text
 section: about
 ---
 
-<iframe width="522" height="293" src="https://www.youtube.com/embed/MbHIxbbyOi8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<responsive-embed :ratio="16/9" :max-width="720">
+  <iframe width="522" height="293" src="https://www.youtube.com/embed/MbHIxbbyOi8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</responsive-embed>
 
 # Meet The Team!
 

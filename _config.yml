@@ -1,6 +1,7 @@
 permalink: /:year-:month-:day/:title
 markdown: kramdown
 permalink: pretty
+include: ["_pages"]
 exclude:
   - "README.md"
   - "CNAME"
@@ -9,6 +10,11 @@ exclude:
   - "node_modules"
   - "src"
   - "vendor" #jekyll travis
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
 
 title : MinuteEarth
 url : //minuteearth.com

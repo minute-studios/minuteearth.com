@@ -27,8 +27,8 @@
   left: 50%;
 }
 .loading-screen:before {
-  margin-right: -80px;
-  margin-top: -120px;
+  margin-left: -80px;
+  margin-top: -160px;
   width: 160px;
   height: 160px;
   background: url(/public/earth.jpg) no-repeat center center;
