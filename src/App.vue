@@ -10,8 +10,8 @@
   .main-container
     slot
   .footer-container
-    .section
-      .container
+    .container
+      .section
         slot(name="footer")
 </template>
 
@@ -38,6 +38,7 @@ export default {
 
 <style lang="sass">
 @import '@/styles/_variables.scss'
+$navBackground: #333
 .app
   display: flex
   min-height: 100vh
@@ -50,8 +51,15 @@ export default {
   display: flex
 .main-container
   flex: 1
+.footer-container
+  background: $navBackground
+  color: $white
+  .heading
+    color: $white
+  a
+    color: lighten($primary, 10)
 .top-nav
-  background: #333
+  background: $navBackground
   .banner
     height: 300px
     overflow: hidden
@@ -91,11 +99,11 @@ export default {
   .nav-section
     position: relative
     z-index: 1
-    background: #333
+    background: $navBackground
   .navbar
     background: transparent
     .navbar-menu
-      background: #333
+      background: $navBackground
     .navbar-start
       margin: 0 auto
     .navbar-end

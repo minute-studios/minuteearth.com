@@ -65,8 +65,11 @@
       <footer slot="footer">
         <div class="columns">
           <div class="column">
-            <div class="content">
-
+            <div class="content has-text-centered">
+              <h2 class="heading">Support Us On Patreon!</h2>
+              <a href="{{ site.social.patreon }}" target="_blank" rel="noopener">
+                <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="200">
+              </a>
             </div>
           </div>
           <div class="column">
@@ -76,11 +79,44 @@
           </div>
           <div class="column">
             <div class="content">
-
+              <h2 class="heading">Contact Us</h2>
+              <ul class="footer-contact">
+                <li class="email">
+                  <a href="mailto:{{ site.social.email }}" target="_blank" rel="noopener">
+                    <span class="icon">
+                      <i class="mdi mdi-email"></i>
+                    </span>
+                    Email
+                  </a>
+                </li>
+                <li class="youtube">
+                  <a href="{{ site.social.youtube }}" target="_blank" rel="noopener">
+                    <span class="icon">
+                      <i class="mdi mdi-youtube"></i>
+                    </span>
+                    YouTube Channel
+                  </a>
+                </li>
+                <li class="twitter">
+                  <a href="{{ site.social.twitter }}" target="_blank" rel="noopener">
+                    <span class="icon">
+                      <i class="mdi mdi-twitter"></i>
+                    </span>
+                    @minuteearth
+                  </a>
+                </li>
+                <li class="instagram">
+                  <a href="{{ site.social.instagram }}" target="_blank" rel="noopener">
+                    <span class="icon">
+                      <i class="mdi mdi-instagram"></i>
+                    </span>
+                    Instagram
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-
       </footer>
     </app>
 

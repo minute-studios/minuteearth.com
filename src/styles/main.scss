@@ -203,4 +203,7 @@ ul.footer-contact {
   .twitter a {
     color: $blue;
   }
+  .instagram a {
+    color: lighten($purple, 10)
+  }
 }
