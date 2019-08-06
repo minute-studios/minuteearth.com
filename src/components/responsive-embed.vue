@@ -27,7 +27,7 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
+<style lang="sass">
 @import '@/styles/_variables.scss'
 .responsive-embed-wrap
   margin: auto
