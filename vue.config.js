@@ -1,5 +1,7 @@
 module.exports = {
   runtimeCompiler: true
+  , publicPath: '/dist'
+  , indexPath: '../_layouts/default.html'
   , configureWebpack: {
     resolve: {
       // alias: {
