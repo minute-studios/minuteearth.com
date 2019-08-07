@@ -1,9 +1,13 @@
 language: ruby
 rvm: 2.3.7
+before_install:
+  - yarn install
 install: bundle install
-script: "bundle exec jekyll build"
+script: "yarn build && rm .gitignore"
 sudo: false
-cache: bundler
+cache:
+  - bundler
+  - yarn
 branches:
   only:
   - production
