@@ -15,6 +15,9 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  team_members:
+    output: false
+    sort_by: name
 
 title : MinuteEarth
 url : //minuteearth.com
