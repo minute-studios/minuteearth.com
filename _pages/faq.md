@@ -73,7 +73,7 @@ We’re sorry we didn’t reply! We try to respond to substantive questions and 
 
 ## Can I translate your videos into another language?
 
-Yes please! We would love for you to upload translations of our subtitles/captions on our original videos directly in the YouTube player (see our [how-to guide here][translate]). However, if you want to dub videos into your own language and re-upload to your own channel, we need to [talk about][email] how serious and professional you’re going to be about it, and maybe we’ll say yes, since we do want our videos to be available in multiple languages. If you just want to subtitle the videos and re-upload them to your own channel, then no, please don’t!
+Yes please! If you are interested in translating and localizing our content, please fill out [this form](https://forms.gle/oXKEjgnX4Vqp28MK9) as a first step. We would love for you to upload translations of our subtitles/captions on our original videos directly in the YouTube player (see our [how-to guide here][translate]). However, if you want to dub videos into your own language and re-upload to your own channel, we need to [talk about][email] how serious and professional you’re going to be about it, and maybe we’ll say yes, since we do want our videos to be available in multiple languages. If you just want to subtitle the videos and re-upload them to your own channel, then no, please don’t! 
 
 ## I have a business proposition for you!
 
