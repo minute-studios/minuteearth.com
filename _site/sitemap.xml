@@ -3,19 +3,25 @@
     
     <url>
         <loc>https://minuteearth.com/about/</loc>
-        <lastmod>2020-03-17</lastmod>
+        <lastmod>2020-03-27</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     
     <url>
         <loc>https://minuteearth.com/faq/</loc>
-        <lastmod>2020-03-17</lastmod>
+        <lastmod>2020-03-27</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    
+    <url>
+        <loc>https://minuteearth.com/licensing/</loc>
+        <lastmod>2020-03-27</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     
     <url>
         <loc>https://minuteearth.com/partners/</loc>
-        <lastmod>2020-03-17</lastmod>
+        <lastmod>2020-03-27</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     
