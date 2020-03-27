@@ -25,5 +25,11 @@
         <changefreq>weekly</changefreq>
     </url>
     
+    <url>
+        <loc>https://minuteearth.com/translating/</loc>
+        <lastmod>2020-03-27</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    
     
 </urlset>
