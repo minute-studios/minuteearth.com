@@ -39,6 +39,7 @@
     <link rel="stylesheet" href="//cdn.materialdesignicons.com/2.8.94/css/materialdesignicons.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/public/loader.css">
+    <script src="https://kit.fontawesome.com/e89fe24b26.js" crossorigin="anonymous"></script>
 
   </head>
   <body class="{% if page.section %}page-{{ page.section }}{% else %}page-default{% endif %}">
@@ -72,6 +73,8 @@
         <div class="columns">
           <div class="column">
             <div class="content has-text-centered">
+              <p>MinuteEarth is produced by <a href="https://www.neptunestudios.info" target="_blank">Neptune Studios LLC</a></p>
+
               <h2 class="heading">Support Us On Patreon!</h2>
               <a href="{{ site.social.patreon }}" target="_blank" rel="noopener">
                 <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="200">
@@ -117,6 +120,14 @@
                       <i class="mdi mdi-instagram"></i>
                     </span>
                     Instagram
+                  </a>
+                </li>
+                <li class="tiktok">
+                  <a href="{{ site.social.tiktok }}" target="_blank" rel="noopener">
+                    <span class="icon">
+                      <i class="fab fa-tiktok"></i>
+                    </span>
+                    TikTok
                   </a>
                 </li>
               </ul>
