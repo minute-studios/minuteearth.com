@@ -187,6 +187,13 @@ $link-focus-border: $primary;
   }
 }
 
+.footer-container {
+  a:hover,
+  a:focus {
+    color: $grey-lighter;
+  }
+}
+
 ul.footer-contact {
   list-style: none;
   margin: 0;
@@ -205,5 +212,8 @@ ul.footer-contact {
   }
   .instagram a {
     color: lighten($purple, 10)
+  }
+  .tiktok a {
+    color: $deep-blue-light;
   }
 }
