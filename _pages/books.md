@@ -1,4 +1,3 @@
-
 ---
 title: Books
 layout: text
