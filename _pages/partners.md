@@ -17,22 +17,22 @@ Recent examples:
 
 <div class="columns is-multiline">
   <div class="column is-half">
-    <responsive-embed :ratio="16/9">
+    <responsive-embed markdown="0" :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/6XCkgXgKBqI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
   <div class="column is-half">
-    <responsive-embed :ratio="16/9">
+    <responsive-embed markdown="0" :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/CJQlgrlB29M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
   <div class="column is-half">
-    <responsive-embed :ratio="16/9">
+    <responsive-embed markdown="0" :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/qbnaes8X4iQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
   <div class="column is-half">
-    <responsive-embed :ratio="16/9">
+    <responsive-embed markdown="0" :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/64pvlCtH-Oo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
@@ -44,22 +44,22 @@ We play nicely with fellow creators. We’re happy to brainstorm ideas with all 
 
 <div class="columns is-multiline">
   <div class="column is-half">
-    <responsive-embed :ratio="16/9">
+    <responsive-embed markdown="0" :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/sTvqIijqvTg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
   <div class="column is-half">
-    <responsive-embed :ratio="16/9">
+    <responsive-embed markdown="0" :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/LWB0-tGwb_E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
   <div class="column is-half">
-    <responsive-embed :ratio="16/9">
+    <responsive-embed markdown="0" :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/bjvIpI-1w84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
   <div class="column is-half">
-    <responsive-embed :ratio="16/9">
+    <responsive-embed markdown="0" :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/MEX2J_sAdGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
@@ -73,22 +73,22 @@ Recent examples:
 
 <div class="columns is-multiline">
   <div class="column is-half">
-    <responsive-embed :ratio="16/9">
+    <responsive-embed markdown="0" :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/HDG4GSypcIE?start=123" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
   <div class="column is-half">
-    <responsive-embed :ratio="16/9">
+    <responsive-embed markdown="0" :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/8xVgAULDwNE?start=136" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
   <div class="column is-half">
-    <responsive-embed :ratio="16/9">
+    <responsive-embed markdown="0" :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/HIbG-dUFnf4?start=99" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
   <div class="column is-half">
-    <responsive-embed :ratio="16/9">
+    <responsive-embed markdown="0" :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/vN1brVnlBZU?start=113" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
