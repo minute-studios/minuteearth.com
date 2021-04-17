@@ -1,6 +1,5 @@
 permalink: /:year-:month-:day/:title
-markdown: kramdown
-permalink: pretty
+markdown: CommonMarkGhPages
 include: ["_pages"]
 exclude:
   - "README.md"

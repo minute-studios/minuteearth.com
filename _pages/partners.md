@@ -16,22 +16,22 @@ We help our nonprofit and university sponsors reach a large, engaged, and scient
 Recent examples:
 
 <div class="columns is-multiline">
-  <div class="column is-half" markdown="0">
+  <div class="column is-half">
     <responsive-embed :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/6XCkgXgKBqI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
-  <div class="column is-half" markdown="0">
+  <div class="column is-half">
     <responsive-embed :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/CJQlgrlB29M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
-  <div class="column is-half" markdown="0">
+  <div class="column is-half">
     <responsive-embed :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/qbnaes8X4iQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
-  <div class="column is-half" markdown="0">
+  <div class="column is-half">
     <responsive-embed :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/64pvlCtH-Oo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
@@ -43,22 +43,22 @@ Recent examples:
 We play nicely with fellow creators. We’re happy to brainstorm ideas with all sorts of Youtubers and other (ugh) “influencers.” We’ve had the recent pleasure of working with:
 
 <div class="columns is-multiline">
-  <div class="column is-half" markdown="0">
+  <div class="column is-half">
     <responsive-embed :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/sTvqIijqvTg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
-  <div class="column is-half" markdown="0">
+  <div class="column is-half">
     <responsive-embed :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/LWB0-tGwb_E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
-  <div class="column is-half" markdown="0">
+  <div class="column is-half">
     <responsive-embed :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/bjvIpI-1w84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
   </div>
-  <div class="column is-half" markdown="0">
+  <div class="column is-half">
     <responsive-embed :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/MEX2J_sAdGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
@@ -71,8 +71,8 @@ Many of our videos contain sponsored ending messages, in which we thank partners
 
 Recent examples:
 
-<div class="columns is-multiline" markdown="0">
-  <div class="column is-half" markdown="0">
+<div class="columns is-multiline">
+  <div class="column is-half">
     <responsive-embed :ratio="16/9">
       <iframe width="313" height="176" src="https://www.youtube.com/embed/HDG4GSypcIE?start=123" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </responsive-embed>
