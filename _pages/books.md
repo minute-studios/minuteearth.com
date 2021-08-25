@@ -11,6 +11,8 @@ section: books
     <em>And Other Curious Questions about Animals, Nature, Geology, and Planet Earth</em>
 </h3>
 
+**Lesson plans and more educational tools coming soon!**
+
 <div class="columns is-multiline">
   <div class="column is-half">
     <responsive-embed :ratio="16/9">
