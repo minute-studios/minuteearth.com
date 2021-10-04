@@ -36,6 +36,9 @@ $link-focus-border: $primary;
 .content {
   h1, h2, h3, h4, h5, h6 {
     font-family: $family-heading;
+    &.heading-hw {
+      font-family: $family-handwriting;
+    }
   }
 }
 
@@ -158,9 +161,14 @@ $link-focus-border: $primary;
   flex: 1;
   display: flex;
   flex-direction: column;
+  max-width: 100%;
   .page-text {
     flex: 1;
     background: $white;
+  }
+
+  > * {
+    flex-grow: 1;
   }
 }
 
@@ -215,5 +223,211 @@ ul.footer-contact {
   }
   .tiktok a {
     color: $deep-blue-light;
+  }
+}
+
+.page-book {
+  $fontColorTitle: #5FD5F5;
+  $fontColorBody: #FFFFFF;
+  $fontColorButton: #1A1A1A;
+  $backgroundColor: #1A1A1A;
+  $fontColorLinkHover: #5FD5F5;
+  $button1Color: #D5E4E5;
+  $button2Color: #BADDE5;
+  $button3Color: #98D5DD;
+  $fontSizeTitle: 3em / 2;
+  // [ -> CAPS kerning: 25pt]
+  $fontSizeBody: 16px;
+  $fontSizeButton: 1.6em / 2;
+  // [ -> CAPS kerning: 25pt]
+
+  background: $backgroundColor url('~@/assets/book/City-min.png') no-repeat center bottom;
+  background-size: 1600px;
+  padding-bottom: 650px;
+  padding-top: 5em;
+
+  .content {
+    font-size: $fontSizeBody;
+    line-height: 1.3;
+  }
+
+  p,
+  dl,
+  ol,
+  ul,
+  blockquote,
+  pre,
+  table {
+    &:not(:last-child) {
+      margin-bottom: 1.5em;
+    }
+  }
+
+  p,
+  strong {
+    color: $fontColorBody;
+  }
+
+  a {
+    color: $fontColorBody;
+    text-decoration: underline;
+
+    transition: color 0.3s ease;
+
+    &:hover,
+    &:active,
+    &:target {
+      color: $fontColorLinkHover;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-family: $family-sans-serif;
+    color: $fontColorTitle;
+    font-size: $fontSizeTitle;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1.5;
+  }
+
+  h3 {
+    margin-bottom: 0;
+  }
+
+  h1 {
+    text-transform: none;
+    margin-bottom: 1em;
+    line-height: 1.15;
+    .upper {
+      text-transform: uppercase;
+      font-weight: normal;
+    }
+    em {
+      color: $fontColorBody;
+      font-weight: normal;
+      font-size: 0.95em;
+      padding-top: 4px;
+      line-height: 1.1;
+    }
+  }
+
+  .preorder-links {
+    list-style: none;
+    margin: 0;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    li {
+      padding: 0;
+      margin: 0;
+
+      a {
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .top-section {
+    position: relative;
+
+    .column {
+      position: relative;
+      z-index: 1;
+    }
+
+    .column:nth-child(2) .content:last-child {
+      position: relative;
+      padding-bottom: 423px;
+
+      &:after {
+        content: '';
+        background: url('~@/assets/book/astronaut-min.png') no-repeat top right;
+        background-size: 110%;
+        display: block;
+        width: 800px;
+        height: 493px;
+        position: absolute;
+        bottom: 0px;
+        right: -89px;
+        z-index: 0;
+      }
+
+      @media screen and (min-width: $tablet) and (max-width: $desktop) {
+        &:after {
+          right: -125px;
+        }
+      }
+    }
+  }
+
+  .cover-column {
+    padding-right: 48px;
+  }
+
+  .book-cover {
+    max-width: 100%;
+    margin-top: -20px;
+  }
+
+  .look-inside {
+    margin-bottom: 4em;
+  }
+
+  .resources-links {
+
+    &, li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    & {
+      max-width: 400px;
+      margin: auto;
+      margin-top: 3em;
+    }
+
+    li {
+      margin-bottom: 1em;
+
+      a {
+        display: block;
+        padding: 1.5em;
+        color: $fontColorButton;
+        background: $button1Color;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: $fontSizeButton;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 40px;
+        letter-spacing: 1px;
+        transition: background 0.3s ease;
+      }
+
+      &:nth-child(2) a {
+        background: $button2Color;
+      }
+      &:nth-child(3) a {
+        background: $button3Color;
+      }
+
+      a {
+        &:hover,
+        &:active,
+        &:target {
+          background-color: $fontColorBody;
+        }
+      }
+    }
+  }
+
+  .any-questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 8em;
+    margin: 3em 0;
   }
 }
