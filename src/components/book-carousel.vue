@@ -15,7 +15,6 @@ b-carousel.book-carousel(
       @switch="props.switch($event, false)"
       as-indicator
     )
-</b-carousel>
 </template>
 
 <script>
