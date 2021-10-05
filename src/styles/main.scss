@@ -512,6 +512,8 @@ ul.footer-contact {
   }
 
   .title-banner {
+    max-width: $desktop;
+    margin: auto;
     text-align: center;
     color: white;
     background-color: $lighterBlue;
@@ -523,6 +525,11 @@ ul.footer-contact {
       line-height: 1;
       font-family: $family-handwriting;
       margin-bottom: 0;
+    }
+
+    small {
+      font-weight: bold;
+      text-transform: uppercase;
     }
   }
 
