@@ -381,6 +381,21 @@ ul.footer-contact {
   }
 
   .resources-links {
+    position: relative;
+
+    &:after {
+      content: 'Coming Soon!';
+      background-color: #1A1A1ADD;
+      color: white;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      text-align: center;
+      line-height: 140px;
+    }
 
     &, li {
       list-style: none;
