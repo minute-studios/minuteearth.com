@@ -565,11 +565,19 @@ ul.footer-contact {
 
 .press-kit {
   $blue: #295abe;
+
   .subtitle {
-    font-size: 1.3em;
+    font-size: 1.15em;
     text-transform: uppercase;
     color: $blue;
     font-weight: bold;
+  }
+
+  h3 {
+    font-family: $family-handwriting;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #4EACE9;
   }
 
   a:not(.button),
@@ -578,8 +586,15 @@ ul.footer-contact {
     color: $blue;
   }
 
+  .button {
+    background-color: $blue;
+    border-color: $blue;
+    color: white;
+    text-transform: capitalize;
+  }
+
   .me-explains {
-    max-width: 720px;
+    max-width: $tablet;
     margin: auto;
   }
 }
