@@ -33,6 +33,10 @@ $link-focus-border: $primary;
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
 
+.no-wrap {
+  white-space: nowrap;
+}
+
 .content {
   h1, h2, h3, h4, h5, h6 {
     font-family: $family-heading;
@@ -283,6 +287,10 @@ ul.footer-contact {
     }
   }
 
+  a.no-underline {
+    text-decoration: none;
+  }
+
   .button {
     font-family: $family-sans-serif;
   }
@@ -337,6 +345,11 @@ ul.footer-contact {
   .top-section {
     position: relative;
 
+    @media screen and (max-width: $tablet) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
     .column {
       position: relative;
       z-index: 1;
@@ -344,7 +357,7 @@ ul.footer-contact {
 
     .column:nth-child(2) .content:last-child {
       position: relative;
-      padding-bottom: 423px;
+      padding-bottom: 483px;
 
       &:after {
         content: '';
@@ -360,6 +373,8 @@ ul.footer-contact {
       }
 
       @media screen and (min-width: $tablet) and (max-width: $desktop) {
+        padding-bottom: 423px;
+
         &:after {
           right: -125px;
         }
@@ -367,8 +382,10 @@ ul.footer-contact {
     }
   }
 
-  .cover-column {
-    padding-right: 48px;
+  @media screen and (min-width: $tablet) {
+    .cover-column {
+      padding-right: 48px;
+    }
   }
 
   .book-cover {
@@ -449,8 +466,10 @@ ul.footer-contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 8em;
     margin: 3em 0;
+    @media screen and (min-width: $tablet) {
+      padding: 0 8em;
+    }
   }
 }
 
@@ -464,6 +483,23 @@ ul.footer-contact {
     background-color: $blue;
     border-color: $blue;
     color: white;
+  }
+
+  a:not(.button),
+  a:not(.button):hover,
+  a:not(.button):active {
+    color: $blue;
+  }
+
+  p, strong, ul, ol {
+    color: #1A1A1A;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $lighterBlue;
+    text-transform: none;
+    font-size: 2em;
+    font-weight: normal;
   }
 
   .ribbon-title {
@@ -482,6 +518,15 @@ ul.footer-contact {
     text-transform: none;
     line-height: 1.1;
     min-width: 400px;
+
+    a {
+      color: white;
+      text-decoration: none;
+      &:hover,
+      &:active {
+        color: white;
+      }
+    }
 
     &:before {
       content: "";
@@ -532,23 +577,6 @@ ul.footer-contact {
       text-transform: uppercase;
     }
   }
-
-  p, strong, ul, ol {
-    color: #1A1A1A;
-  }
-
-  a:not(.button),
-  a:not(.button):hover,
-  a:not(.button):active {
-    color: $blue;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    color: $lighterBlue;
-    text-transform: none;
-    font-size: 2em;
-    font-weight: normal;
-  }
 }
 
 .section .container.narrow {
@@ -566,13 +594,6 @@ ul.footer-contact {
 .press-kit {
   $blue: #295abe;
 
-  .subtitle {
-    font-size: 1.15em;
-    text-transform: uppercase;
-    color: $blue;
-    font-weight: bold;
-  }
-
   h3 {
     font-family: $family-handwriting;
     font-size: 1.5em;
@@ -586,11 +607,26 @@ ul.footer-contact {
     color: $blue;
   }
 
+  .contact-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .subtitle {
+    font-size: 1.15em;
+    text-transform: uppercase;
+    color: $blue;
+    font-weight: bold;
+  }
+
   .button {
     background-color: $blue;
     border-color: $blue;
     color: white;
     text-transform: capitalize;
+    transition: background-color 0.3s ease;
   }
 
   .me-explains {
