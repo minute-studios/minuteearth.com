@@ -11,7 +11,7 @@ section: books
 <div class="content">
   <b-collapse :open="false">
     <template #trigger="props">
-      <h3>Where did Earth's water come from? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'"></b-icon></h3>
+      <h3 class="sources-heading">Where did Earth's water come from? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
     </template>
     <ul>
       <li>Campbell, I. H., & O'Neill, H. S. C. (2012). Evidence against a chondritic Earth.Nature, 483(7391), 553-558.</li>
@@ -30,407 +30,499 @@ section: books
         Glasses and Melt Inclusions Reveal a Carbonaceous Chondrite Heritage. Science, 340(6138), 1317-1320.</li>
     </ul>
   </b-collapse>
-  <h3>Why do rivers curve?</h3>
-  <ul>
-    <li>Ferreira da Silva, A. M. (2006). On why and how do rivers meander.
-      https://www.tandfonline.com/doi/pdf/10.1080/00221686.2006.9521708</li>
-    <li>Howard, A. D. (2009). How to make a meandering river. Proceedings of the National Academy of Sciences, 106(41),
-      17245-17246. https://www.pnas.org/content/106/41/17245</li>
-    <li>Howard, A. D., & Knutson, T. R. (1984). Sufficient conditions for river meandering: A simulation approach. Water
-      Resources Research, 20(11), 1659-1667. https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/WR020i011p01659
-    </li>
-    <li>Leopold, L. B., & Wolman, M. G. (1960). River meanders. Geological Society of America Bulletin, 71(6), 769-793.
-      https://pubs.geoscienceworld.org/gsa/gsabulletin/article/71/6/769/5195/RIVER-MEANDERS</li>
-    <li>Parker, H. (1996). River Meandering as Self-Organization Process. Science,271, 1710.
-      https://www.science.org/doi/10.1126/science.271.5256.1710.</li>
-    <li>Rhoads, B. L., & Welford, M. R. (1991). Initiation of river meandering. Progress in Physical Geography, 15(2),
-      127-156. https://journals.sagepub.com/doi/10.1177/030913339101500201</li>
-    <li>Schwenk, Jon. Interview. 9 July 2014.</li>
-    <li>Seminara, G. (2006). Meanders. Journal of fluid mechanics, 554, 271-297.
-      https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/meanders/2CF806BE5C5B42FAEFC3507D9763B027
-    </li>
-    <li>Stølum, H. H. (1998). Planform geometry and dynamics of meandering rivers.Geological Society of America Bulletin,
-      110(11), 1485-1498. https://pubs.geoscienceworld.org/gsabulletin/article-lookup/110/11/1485</li>
-  </ul>
-  <h3>Which came first, the rain or the rainforest?</h3>
-  <ul>
-    <li>Boyce, C.K. et al. 2010. Angiosperms Helped Put the Rain in the Rainforests: The Impact of Plant Physiological
-      Evolution on Tropical Biodiversity. http://www.bioone.org/doi/abs/10.3417/2009143</li>
-    <li>Boyce, C.K. and Lee, J.-E. 2010. An exceptional role for flowering plant physiology in the expansion of tropical
-      rainforests and biodiversity. http://rspb.royalsocietypublishing.org/content/277/1699/3437.short</li>
-    <li>Lee, J.‐E., and Boyce, C.K. 2010. Impact of the hydraulic capacity of plants on water and carbon fluxes in
-      tropical South America. http://onlinelibrary.wiley.com/doi/10.1029/2010JD014568/full</li>
-    <li>Lewis, S.L. et al. 2011. The 2010 Amazon Drought. http://www.sciencemag.org/content/331/6017/554.short</li>
-    <li>Malhi, Y. et al. 2008. Climate Change, Deforestation, and the Fate of the Amazon.
-      http://www.sciencemag.org/content/319/5860/169.short</li>
-    <li>Marengo, J.A. et al. 2008. The Drought of Amazonia in 2005.
-      http://journals.ametsoc.org/doi/abs/10.1175/2007JCLI1600.1</li>
-    <li>Nepstad, D. et al. 1999. Large-scale impoverishment of Amazonian forests by logging and fire.
-      http://www.nature.com/nature/journal/v398/n6727/abs/398505a0.html</li>
-    <li>Nepstad, D. et al. 2001. Road paving, fire regime feedbacks, and the future of Amazon forests.
-      http://www.sciencedirect.com/science/article/pii/S0378112701005114</li>
-    <li>Nickl, et al. 2010. Changes in Annual Land-Surface Precipitation Over the Twentieth and Early Twenty-First
-      Century. http://www.tandfonline.com/doi/abs/10.1080/00045608.2010.500241</li>
-  </ul>
-  <h3>Can fighting wildfires make them worse?</h3>
-  <ul>
-    <li>M.A. Finney, C.W. McHugh, and I.C. Grenfell. Stand- and landscape-level effects of prescribed burning on two
-      Arizona wildfires. Can. J. For. Res. 35: 1714–1722 (2005)</li>
-    <li>North, M.P., B.M. Collins, and S.L. Stephens. 2012. Using fire to increase the scale, benefits and future
-      maintenance of fuels treatments. Journal of Forestry 110(7):392-401.</li>
-    <li>Prichard SJ, Peterson DL, Jacobson K (2010) Fuel treatments reduce the severity of wildfire effects in dry mixed
-      conifer forest, Washington, USA. Canadian Journal of Forest Research 40, 1615–1626. doi:10.1139/X10-109</li>
-    <li>Stephens, S.L., J.D. McIver, R.E.J. Boerner, C.J. Fettig, J.B. Fontaine, B.R. Hartsough, P. Kennedy, and D.W.
-      Schwilk. 2012. Effects of forest fuel reduction treatments in the United States. BioScience 62:549-560.</li>
-    <li>Stephens, S.L., J.K. Agee, P.Z Fulé, M.P. North, W.H. Romme, T.W. Swetnam, and M.G. Turner. 2013. Managing forests
-      and fire in changing climates. Science 342:41-42.</li>
-  </ul>
-  <h3>Why are some places so biodiverse?</h3>
-  <ul>
-    <li>Borer, ET et al. 2014. Herbivores and nutrients control grassland plant diversity via light limitation. Nature
-      508, 517–520</li>
-    <li>Fearon, J. 2003. Ethnic and Cultural Diversity by Country. Journal of Economic Growth 8: 195–222.
-      doi:10.1023/A:1024419522867.</li>
-    <li>Guyana Fourth National Report to the Convention on Biological Diversity, Guyana Environmental Protection Agency
-      2010, 83 pages</li>
-    <li>Iyigun, M.F. and A.L. Owen. 1998. Risk, entrepreneurship, and human-capital accumulation, American Economic
-      Review, No. 2, Papers and Proceedings 88 (2), 454-457.</li>
-    <li>Lambers, H (ed). 2014. Plant Life on the Sandplains in Southwest Australia, a Global Biodiversity Hotspot -
-      Kwongan Matters. Publisher: University of Western Australia Publishing, Crawley. ISBN: 978-1-74258-564-2</li>
-    <li>Maffi L. 2005. Linguistic, cultural and biological diversity. Annual Review of Anthropology, Vol. 34: 599-617</li>
-    <li>Nettle, D. 1998. Explaining global patterns of language diversity. Journal of Anthropological Archaeology,
-      17(4):354--74.</li>
-    <li>New Atlas of the British and Irish Flora. 2002., CD Preston, DA Pearman, TD Dines (editors), Oxford University
-      Press. 910 pages</li>
-    <li>Sutherland, W. J. 2003. Parallel extinction risk and global distribution of languages and species. Nature,
-      423:276--279.</li>
-    <li>S. Wennekers, A. van Stel, M. Carree, and R. Thurik, 2010. The Relationship between Entrepreneurship and Economic
-      Foundations and Trends in Entrepreneurship 6: 167-237.</li>
-    <li>Yamada G. 1996. Urban Informal Employment and Self-Employment in Developing Countries: Theory and Evidence.
-      ECONOMIC DEVELOPMENT AND CULTURAL CHANGE. 44: 289-314.</li>
-  </ul>
-  <h3>Why are orchids so successful?</h3>
-  <ul>
-    <li>Cameron DD, Johnson I, Read DJ, Leake JR. 2008. Giving and receiving: measuring the carbon cost of mycorrhizas in
-      the green orchid, Goodyera repens. New Phytologist 180: 176–184. </li>
-    <li>Cameron DD, Leake JR, Read DJ. 2006. Mutualistic mycorrhiza in orchids: evidence from plant-fungus carbon and
-      nitrogen transfers in the green- leaved terrestrial orchid Goodyera repens. New Phytologist 171: 405–416. </li>
-    <li>Cameron DD, Preiss K, Gebauer G, Read DJ. 2009. The chlorophyll containing orchid Corallorhiza trifida derives
-      little carbon through photosynthesis. New Phytologist 183: 358–364.</li>
-    <li>Givnish, T. J., Spalink, D., Ames, M., Lyon, S. P., Hunter, S. J., Zuluaga, A., . . . Cameron, K. M. (2015).
-      Orchid phylogenomics and multiple drivers of their extraordinary diversification. Proceedings of the Royal Society
-      B: Biological Sciences Proc. R. Soc. B, 282(1814), 20151553. doi:10.1098/rspb.2015.1553 </li>
-    <li>Hopper, S. D., & Brown, A. P. (2007). A revision of Australia' s hammer orchids (Drakaea: Orchidaceae), with some
-      field data on species-specific sexually deceived wasp pollinators. Aust. Systematic Bot. Australian Systematic
-      Botany, 20(3), 252.
-      https://www.researchgate.net/publication/248900697_A_revision_of_Australia'_s_hammer_orchids_Drakaea_Orchidaceae_with_some_field_data_on_species-specific_sexually_deceived_wasp_pollinators
-    </li>
-    <li>Koopowitz, H.. (1992). A STOCHASTIC MODEL FOR THE EXTINCTION OF TROPICAL ORCHIDS. Selbyana,13, 115–122.
-      http://www.jstor.org/stable/41759800</li>
-    <li>Mccormick, M. K., Taylor, D. L., Juhaszova, K., Burnett, R. K., Whigham, D. F., & O’Neill, J. P. (2012).
-      Limitations on orchid recruitment: Not a simple picture. Molecular Ecology, 21(6), 1511-1523.
-      doi:10.1111/j.1365-294x.2012.05468. </li>
-    <li>Merckx, V. and Freudenstein, J. V. (2010), Evolution of mycoheterotrophy in plants: a phylogenetic perspective.
-      New Phytologist, 185: 605–609. https://nph.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-8137.2009.03155.x</li>
-    <li>Rasmussen, Hanne N., and Finn N. Rasmussen. "Orchid mycorrhiza: implications of a mycophagous life style." Oikos
-      118.3 (2009): 334-345.</li>
-    <li>Swarts, N. D., & Dixon, K. W. (2009). Terrestrial orchid conservation in the age of extinction. Annals of Botany,
-      104(3), 543-556. doi:10.1093/aob/mcp025 </li>
-    <li>Waterman, R. J., & Bidartondo, M. I. (2008). Deception above, deception below: Linking pollination and mycorrhizal
-      biology of orchids. Journal of Experimental Botany, 59(5), 1085-1096.
-      https://academic.oup.com/jxb/article/59/5/1085/539283</li>
-  </ul>
-  <h3>Can plants talk?</h3>
-  <ul>
-    <li>Barto, E. K., Weidenhamer, J. D., Cipollini, D., & Rillig, M. C. (2012). Fungal superhighways: do common
-      mycorrhizal networks enhance below ground communication?. Trends in plant science, 17(11), 633-637.
-      https://www.sciencedirect.com/science/article/abs/pii/S1360138512001331</li>
-    <li>Gianoli, E., & Carrasco-Urra, F. (2014). Leaf Mimicry in a Climbing Plant Protects against Herbivory. Current
-      Biology, 24(9), 984-987. https://www.sciencedirect.com/science/article/pii/S0960982214002693</li>
-    <li>Kask, K., Kännaste, A., & Niinemets, Ü. (2013). Emission of volatile organic compounds as a signal of plant
-      stress. Scientific Bulletin of ESCORENA, 8, 79-92. https://uav.ro/jour/index.php/sbe/article/view/168</li>
-    <li>Song, Y. Y., Zeng, R. S., Xu, J. F., Li, J., Shen, X., & Yihdego, W. G. (2010). Interplant communication of tomato
-      plants through underground common mycorrhizal networks. PLoS One, 5(10), e13324.
-      https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0013324</li>
-    <li>Piesik, D., Pańka, D., Delaney, K. J., Skoczek, A., Lamparski, R., & Weaver, D. K. (2011). Cereal crop volatile
-      organic compound induction after mechanical injury, beetle herbivory (Oulema spp.), or fungal infection (Fusarium
-      spp.). Journal of plant physiology, 168(9), 878-886.
-      https://www.sciencedirect.com/science/article/abs/pii/S0176161710005584</li>
-  </ul>
-  <h3>Why do leaves change color in the fall?</h3>
-  <ul>
-    <li>Hoch, W. A., Singsaas, E. L., & McCown, B. H. (2003). Resorption protection. Anthocyanins facilitate nutrient
-      recovery in autumn by shielding leaves from potentially damaging light levels. Plant Physiology, 133(3), 1296-1305.
-    </li>
-    <li>Feild, T. S., Lee, D. W., & Holbrook, N. M. (2001). Why leaves turn red in autumn. The role of anthocyanins in
-      senescing leaves of red-osier dogwood. Plant physiology, 127(2), 566-574.</li>
-  </ul>
-  <h3>Who are flowers trying to seduce?</h3>
-  <ul>
-    <li>Cox, P. (1993 October). Water Pollinated Plants. Scientific American, 269(4): 68-74</li>
-    <li>Johnson, S.D. et al. (2001). Rodent pollination in the African lily Massonia depressa (Hyacinthaceae). American
-      Journal of Botany, 88: 1768–1773</li>
-    <li>Leonard, A.S. & Papaj, D.R. (2011) ‘X’ marks the spot: the possible benefits of nectar guides to bees and plants.
-      Functional Ecology, 25: 1293– 1301</li>
-    <li>Lunau, K. et al. (2011). Avoidance of achromatic colours by bees provides a private niche for hummingbirds.
-      Journal of Experimental Biology, 214: 1607–1612</li>
-    <li>Reed, S. et al. (1998). Pollination of Rafflesia (Rafflesiaceae). American Journal of Botany, 75(8): 1148-1162
-    </li>
-    <li>Rodriguez-Girones, M.A., Santamaria, L. (2004). Why are so many bird flowers red? PLoS Biology, 2:e350</li>
-    <li>Rosas-Guerrero, V. et al. (2014). A quantitative review of pollination syndromes: do floral traits predict
-      effective pollinators? Ecology Letters, 17: 388–400</li>
-    <li>Schiestl, F.P. & Dotterl, S. (2012) The evolution of floral scent and olfactory preferences in pollinators:
-      coevolution or pre-existing bias? Evolution, 66: 2042–2055</li>
-  </ul>
-  <h3>Why are fish getting smaller?</h3>
-  <ul>
-    <li>Garcia et al. 2012. https://archimer.ifremer.fr/doc/00070/18121/15670.pdf</li>
-    <li>Halliday and Pinhorn. 2009. https://www.sciencedirect.com/science/article/abs/pii/S0165783609000423</li>
-    <li>Halliday and Pinhorn. 2002. https://www.sciencedirect.com/science/article/abs/pii/S0165783602000796</li>
-    <li>Jorgensen et al. 2007. https://archimer.ifremer.fr/doc/2007/publication-3302.pdf</li>
-    <li>Schmidt. 2003. https://www.oecd.org/japan/2507622.pdf</li>
-    <li>Shackell and Frank. 2007. http://www.int-res.com/articles/meps2007/336/m336p235.pdf</li>
-  </ul>
-  <h3>Why don't sheep shrink in the rain?</h3>
-  <ul>
-    <li>Lodish H, Berk A, Zipursky SL., et al. “The Making or Breaking of Covalent Bonds Involves Large Energy Changes”.
-      Molecular Cell Biology. Section 2:1 (22). https://www.ncbi.nlm.nih.gov/books/NBK21595/#_A261_</li>
-    <li>Wallach, J. “A Comprehensive Guide to the Clandestine Chemistry of 'Breaking Bad'” Vice. (2013).
-      https://motherboard.vice.com/en_us/article/a-comprehensive-guide-to-the-clandestine-chemistry-of-breaking-bad.</li>
-  </ul>
-  <h3>How did whales get so big?</h3>
-  <ul>
-    <li>Kaiser, A., Klok, C., Socha, J. Lee, W. Quinlan, M., and Harrison, J. (2007). Increase in tracheal investment with
-      beetle size supports hypothesis of oxygen limitation on insect gigantism. 13198-13203. PNAS.
-      https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1941816/</li>
-    <li>Sander, P. Christian, A., Clauss, M., Fechner, R. Gee, C., Griebler, E., Gunga, H., Hummel, J., Mallison, H.,
-      Perry, S., Preuschoft, H., Rauhut, O., Remes, K., Tutken, T., Wings, O. and Witzel, U. (2011). Biology of the
-      sauropod dinosaurs:the evolution of gigantism. Biological Reviews. 86(1): 117–155.
-      https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3045712/</li>
-    <li>Taylor, M and Weder, M. (2013). Why sauropods had long necks; and why giraffes have short necks. PeerJ 1:e36.
-      https://arxiv.org/pdf/1209.5439.pdf.</li>
-    <li>Verberk, W. and Bilton, D. (2011). Can Oxygen Set Thermal Limits in an Insect and Drive Gigantism? PLOS One. 6(7):
-      e22610. http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0022610</li>
-    <li>Slater, G., Goldbogen, J., Pyenson, N. (2017). Independent evolution of baleen whale gigantism linked to
-      Plio-Pleistocene ocean dynamics. Proceedings of the Royal Society B. 284: 20170546.
-      http://rspb.royalsocietypublishing.org/content/284/1855/20170546.</li>
-  </ul>
-  <h3>Which of these is a bee?</h3>
-  <ul>
-    <li>Brower J.V.Z. & Brower L.P., (1965). Experimental studies of mimicry. 8. Further investigations of honeybees (Apis
-      mellifera) and their dronefly mimics (Eristalis spp.). American Naturalist 99:173–187.
-      https://www.jstor.org/stable/pdf/2459113.pdf</li>
-    <li>Dyer, F., Jan 2017, personal communication. </li>
-    <li>Franks, D. W. and Noble, J., (2002). The origins of mimicry rings. Standish, R. K., Bedau, M. A. and Abbass, H.
-      A.(eds.) In Artificial Life VIII: Proceedings of the Eighth International Conference on Artificial Life. MIT Press.,
-      pp. 186-191. http://alife8.alife.org/proceedings/sub2852.pdf</li>
-    <li>Pasteur, G., (1982). A classificatory review of mimicry systems. Annual Review of Ecology & Systematics, 13:
-      169–199. http://www.annualreviews.org/doi/abs/10.1146/annurev.es.13.110182.001125?journalCode=ecolsys.</li>
-    <li>Rettenmeyer, C.W., (1970). Insect Mimicry. Annual Review of Entomology 15: 43-74.
-      http://dx.doi.org/10.1146/annurev.en.15.010170.000355.</li>
-    <li>Wilson, J., Jan 2017, personal communication.</li>
-  </ul>
-  <h3>Why don't migrating birds take the shortest route?</h3>
-  <ul>
-    <li>Horton, K., Van Doren, B., Stepanian, P.,Hochachka, W., Farnsworth, A., and Kelly, J. (2016). Nocturnally
-      migrating songbirds drift when they can and compensate when they must. Scientific Reports 6, 1-8. Nature.
-      https://www.nature.com/articles/srep21249</li>
-    <li>Kranstauber,B., Weinzierl, R., Wikelski, M., Safi, K. (2015). Global aerial flyways allow efficient travelling.
-      Ecology Letters. 18: 133. http://onlinelibrary.wiley.com/doi/10.1111/ele.12528/full</li>
-    <li>Liechti, F. (2006). Birds: blowin’ by the wind.Journal of Ornithology. 47: 202–211.
-      https://link.springer.com/article/10.1007/s10336-006-0061-9.</li>
-    <li>Reddy, G., Celani, A., Sejnowski, T., and Vergassola, M. (2016). Learning to soar in turbulent environments. PNAS.
-      113(33):E4877-84. https://www.ncbi.nlm.nih.gov/pubmed/27482099</li>
-    <li>Shamoun-Baranes, J., Leshem, Y., Yom-Tov, Y., and Liech, O. (2003). Differential use of thermal convection by
-      soaring birds over central Israel. The Condor. 105:208-218. Retrieved from: https://www.jstor.org/stable/1370541.
-    </li>
-    <li>Leshem, Yossi. (2017) Professor of Life Science, Tel-Aviv University. Personal Communication.</li>
-  </ul>
-  <h3>Does it really make sense to mate for life?</h3>
-  <ul>
-    <li>Barash, D. P., & Lipton, J. E. (2002). The myth of monogamy: Fidelity and infidelity in animals and people.
-      Macmillan.</li>
-    <li>Brooked, M. G., Rowley, I., Adams, M., & Baverstock, P. R. (1990). Promiscuity: an inbreeding avoidance mechanism
-      in a socially monogamous species?. Behavioral Ecology and Sociobiology, 26(3), 191-199.</li>
-    <li>Chapais, B. (2013). Monogamy, strongly bonded groups, and the evolution of human social structure. Evolutionary
-      Anthropology: Issues, News, and Reviews, 22(2), 52-65.</li>
-    <li>de Waal, F. B., & Gavrilets, S. (2013). Monogamy with a purpose. Proceedings of the National Academy of Sciences,
-      110(38), 15167-15168.</li>
-    <li>Double, M., & Cockburn, A. (2000). Pre--dawn infidelity: females control extra-pair mating in superb fairy--wrens.
-      Proceedings of the Royal Society of London. Series B: Biological Sciences, 267(1442), 465-470.</li>
-    <li>Kraaijeveld, K., Carew, P. J., Billing, T., Adcock, G. J., & Mulder, R. A. (2004). Extra‐pair paternity does not
-      result in differential sexual selection in the mutually ornamented black swan (Cygnus atratus). Molecular Ecology,
-      13(6), 1625-1633.</li>
-    <li>Ophir, A. G., Phelps, S. M., Sorin, A. B., & Wolff, J. O. (2008). Social but not genetic monogamy is associated
-      with greater breeding success in prairie voles. Animal Behaviour, 75(3), 1143-1154.</li>
-    <li>Reichard, U. (2002). Monogamy - a Variable Relationship. MaxPlanckResearch Conference Report.</li>
-    <li>Thusius, K. J., Peterson, K. A., Dunn, P. O., & Whittingham, L. A. (2001). Male mask size is correlated with
-      mating success in the common yellowthroat.Animal Behaviour, 62(3), 435-446.</li>
-    <li>Wan, D., Chang, P., & Yin, J. (2013). Causes of extra-pair paternity and its inter-specific variation in socially
-      monogamous birds. Acta Ecologica Sinica, 33(3), 158-166.</li>
-    <li>Webster, M. S., Tarvin, K. A., Tuttle, E. M., & Pruett‐Jones, S. (2007). Promiscuity drives sexual selection in a
-      socially monogamous bird. Evolution,61(9), 2205-2211.</li>
-    <li>Monogamous primates: http://www-personal.umich.edu/~phyl/a...</li>
-  </ul>
-  <h3>Why do some animals eat their babies?</h3>
-  <ul>
-    <li>Day, C. S., & Galef, B. G. (1977). Pup cannibalism: One aspect of maternal behavior in golden hamsters. Journal of
-      Comparative and Physiological Psychology, 91(5), 1179-1189. doi:10.1037/h0077386</li>
-    <li>Gilbert, W. M., Nolan, P. M., Stoehr, A. M., & Hill, G. E. (2005). Filial Cannibalism at a House Finch Nest. The
-      Wilson Bulletin, 117(4), 413-415. doi:10.1676/04-003.1.
-      http://www.jstor.org/stable/20060130?seq=1#page_scan_tab_contents</li>
-    <li>Huang, W. (2008). Predation risk of whole-clutch filial cannibalism in a tropical skink with maternal care.
-      Behavioral Ecology, 19(6), 1069-1074. http://beheco.oxfordjournals.org/content/19/6/1069.full#ref-1</li>
-    <li>Klug, H., & Bonsall, M. (2007). When to Care for, Abandon, or Eat Your Offspring: The Evolution of Parental Care
-      and Filial Cannibalism. The American Naturalist, 170(6), 886-901. doi:10.1086/522936.
-      http://www.journals.uchicago.edu/doi/10.1086/522936#rf13</li>
-    <li>Klug, H., & Lindstrom, K. (2008). Hurry-up and hatch: Selective filial cannibalism of slower developing eggs.
-      Biology Letters, 4(2), 160-162. doi:10.1098/rsbl.2007.0589. http://rsbl.royalsocietypublishing.org/content/4/2/160
-    </li>
-    <li>Why do some fish eat their own eggs? - Phys.org. (n.d.). http://phys.org/news/2016-02-fish-eggs.html</li>
-  </ul>
-  <h3>Which plants and animals should we save?</h3>
-  <ul>
-    <li>IUCN 2014. The IUCN Red List of Threatened Species. Version 2014.3. http://www.iucnredlist.org/</li>
-    <li>Small, E. (2011) The new Noah’s Ark: beautiful and useful species only. Part 1. Biodiversity conservation issues
-      and priorities. Biodiversity 12(4): 232 - 247. https://www.tandfonline.com/doi/abs/10.1080/14888386.2011.642663#
-    </li>
-    <li>Smith, R.J., Verissimo, D.; Isaac, N.J.B., & Jones, K.E. (2012) Identifying Cinderella species: uncovering mammals
-      with conservation flagship appeal. Conservation Letters, 5 (3): 205 - 212.
-      https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/j.1755-263X.2012.00229.x</li>
-    <li>Sitas, N., Baillie, J.E.M., and Isaac, N.J.B. (2009) What are we saving? Developing a standardized approach for
-      conservation action. Animal Conservation, 12(3): 231- 237.
-      https://zslpublications.onlinelibrary.wiley.com/doi/full/10.1111/j.1469-1795.2009.00244.x</li>
-    <li>US Fish and Wildlife Service. (1999) South Florida Multi-Species Recovery Plan. Mangroves: 3-519 - 3-552.
-      https://www.fws.gov/verobeach/msrppdfs/mangroves.pdf</li>
-    <li>World Wildlife Fund. (2014) Annual Report.
-      http://assets.worldwildlife.org/financial_reports/21/reports/original/2014_Annual_Report.pdf?1418325091&_ga=1.146888247.1239564205.1427657892
-    </li>
-  </ul>
-  <h3>Why is it so hard to get rid of invasive species?</h3>
-  <ul>
-    <li>Boland, C.R.J., Smith, M.J., Maple D.J., Tiernan, B., Barr, R., Reeves, R., and Napier, F. (2011). Heli-baiting
-      using low concentration fipronil to control invasive yellow crazy ant supercolonies on Christmas Island, Indian
-      Ocean. 152-156 In: Veitch, C. R.; Clout, M. N. and Towns, D. R. (eds.). 2011. Island invasives: eradication and
-      management. IUCN, Gland, Switzerland. http://www.issg.org/pdf/publications/island_invasives/pdfhqprint/2boland.pdf
-    </li>
-    <li>Csurhes, S. and Hankamer, C. (2012) Pest Animal Risk Assessment: Yellow Crazy Ant (Anoplolepis gracilipes).
-      Queensland Department of Employment, Economic Development and Innovation.
-      https://www.daf.qld.gov.au/__data/assets/pdf_file/0003/63372/IPA-Yellow-Crazy-Ant-Risk-Assessment.pdf</li>
-    <li>Hoffman, B. (2009) Dhimurru Yellow Crazy Ant Management Plan: a report prepared for Dhimurru Aboriginal
-      Corporation. http://www.dhimurru.com.au/uploads/8/9/3/6/8936577/dhimurru_draft_plan_of_crazy_ant_management_.pdf
-    </li>
-    <li>Hoffmann, B.D., Auina, S., and Stanley, M.C. (2014). Targeted Research to Improve Invasive Species Management:
-      Yellow Crazy Ant Anoplolepis gracilipes in Samoa. PLoS ONE 9(4): e95301.
-      https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0095301</li>
-    <li>Parkes, J., and Murphy, E. (2003). Management of introduced mammals in New Zealand. New Zealand Journal of Ecology
-      30: 335--359. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.877&rep=rep1&type=pdf</li>
-    <li>Pimentel, D., Zuniga, R. and Morrison, D. (2005). Update on the environmental and economic costs associated with
-      alien invasive species in the United States. Ecological Economics, 52(3): 273-288.
-      https://www.forestpests.org/pdf/Update%20on%20the%20environmental%20and%20economic%20costs%20associated%20with%20alien-invasive%20species%20in%20the%20US.pdf
-    </li>
-  </ul>
-  <h3>Why do some plants and animals thrive in cities?</h3>
-  <ul>
-    <li>DeVault, T.L., Rhodes O.E., & Shivik, J.A. (2003) Scavenging by vertebrates: Behavioral, ecological, and
-      evolutionary perspectives on an important energy transfer pathway in terrestrial ecosystems. Oikos 102: 225- 234.
-      https://digitalcommons.unl.edu/cgi/viewcontent.cgi?/&article=1263&context=icwdm_usdanwrc</li>
-    <li>Flies, A., personal communication, 2015.</li>
-    <li>Houston, D. C. & Cooper, J. (1975) The digestive tract of the whiteback griffon vulture and its role in disease
-      transmission among wild ungulates. Journal of Wildlife Disease 11: 306–313.
-      https://www.ncbi.nlm.nih.gov/pubmed/239254</li>
-    <li>Marín-Arroyo, A.B., Fosse, P., & Vigne, J.D. (2009) Probable evidences of bone accumulation by Pleistocene bearded
-      vulture at the archaeological site of El Mirón Cave (Spain). Journal of Archaeological Science 36: 284–296.
-      https://www.sciencedirect.com/science/article/pii/S0305440308002082</li>
-    <li>Ohishi, I., Sakaguchi, G., Riemann, H., Behymer, D., & Hurvell, B. (1979) Antibodies to Clostridium botulinum
-      toxins in free-living birds and mammals. Journal of Wildlife Disease 15: 3–9.
-      https://www.ncbi.nlm.nih.gov/pubmed/459044</li>
-    <li>Roggenbuck, M., Schnell, I.B., Blom, N., Bælum, J., Bertelsen, M.F., Pontén, T.S., Sørensen, S.J., Thomas, M.,
-      Gilbert, P., Graves, G.R., & Hansen, L.H. (2014). The microbiome of New World vultures. Nature Communications
-      5:5498. https://www.nature.com/articles/ncomms6498</li>
-    <li>Rozen, D.E., Engelmoer, D.J.P. & Smiseth, P.T. (2008) Antimicrobial strategies in burying beetles breeding on
-      carrion .Proceedings of the National Academy of Sciences 105: 17890-17895.
-      https://www.pnas.org/content/105/46/17890.abstract</li>
-    <li>Selva, N., Jędrzejewska, B., Jędrzejewski, W. & Wajrak, A. (2005): Factors affecting carcass use by a guild of
-      scavengers in European temperate woodland. Canadian Journal of Zoology 83: 1590-1601.
-      http://zbs.bialowieza.pl/g2/pdf/1509.pdf</li>
-    <li>Von Hoermann, C., Steiger, S., Muller, J.K., & Ayasse, M. (2013) Too fresh is unattractive! The attraction of
-      newly emerged Nicrophorus vespilloides females to odour bouquets of large cadavers at various stages of
-      decomposition. PLoS One 8: e58524. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0058524</li>
-  </ul>
-  <h3>Why are some diseases so deadly?</h3>
-  <ul>
-    <li>Blanquart, F., Grabowski, M.K., Herbeck, J., Nalugoda, F., Serwadda, D., Eller, M.A., Robb, M.L., Gray, R.,
-      Kigozi, G., Laeyendecker, O., Lythgoe, K.A., Nakigozi, G., Quinn, T.C., Reynolds, S.J., Wawer, M.J., Fraser, C.
-      (2016). A transmission-virulence evolutionary trade-off explains attenuation of HIV-1 in Uganda. Elife 5: 5.</li>
-    <li>de Roode, J.C., Yates, A.J., & Altizer, S. (2008). Virulence-transmission trade-offs and population divergence in
-      virulence in a naturally occurring butterfly parasite. Proceedings of the National Academy of Science 105: 7489-7494
-    </li>
-    <li>Ewald, P.W. (1983). Host-parasite relations, vectors, and the evolution of disease severity. Annual Reviews
-      Ecology & Systematics 14: 465-485</li>
-    <li>Ewald, P.W. (1991). Waterborne transmission and the evolution of virulence among gastrointestinal bacteria.
-      Epidemiology & Infection 106: 83-119.</li>
-    <li>Ewald, P.W. (1991). Transmission modes and the evolution of virulence: with special reference to cholera,
-      influenza, and AIDS. Human Nature 2: 1-30.</li>
-    <li>Galvani, A.P. (2003) Epidemiology meets evolutionary ecology. Trends in Ecology & Evolution 18: 132-139.</li>
-    <li>Lipsitch, M. & Moxon, E.R. (1997). Virulence and transmissibility of pathogens: what is the relationship? Trends
-      in Microbiology 5: 31-37.</li>
-  </ul>
-  <h3>How much food is there on earth?</h3>
-  <ul>
-    <li>Atkinson, A., Siegel, V., et al. 2009. A re-appraisal of the total biomass and annual production of Antarctic
-      krill. Deep Sea Research Part I: Oceanographic Research Papers. Volume 56, Issue 5, 727-740</li>
-    <li>FAO. World Food Situation: https://www.fao.org/worldfoodsituation/csdb/en/</li>
-    <li>FAO. World Cassava Situation and Recent Trends: https://www.fao.org/3/x4007e/X4007E04.htm</li>
-    <li>Kaspari, M., Weiser, M.D. 2012. Energy, taxonomic aggregation, and the geography of ant abundance. Ecography
-      35:65-72.</li>
-    <li>Penn State University Extension. Oil factsheet: oilseed presses. 7pp (undated).</li>
-    <li>Sanderson, MG. 1996. Biomass of termites and their emissions of methane and carbon dioxide: A global database.
-      Global Biogeochemical Cycles 10, 543-557.</li>
-    <li>USDA ISSN: 1554-9089, World Agricultural Supply and Demand Estimates, February 8, 2018;</li>
-    <li>Wilson, RW. et al. 2009, Contribution of Fish to the Marine Inorganic Carbon Cycle, Science 323, 359-362.</li>
-  </ul>
-  <h3>How is milk REALLY made?</h3>
-  <ul>
-    <li>Skibiel, A., Downing, L., Orr, T., and Hood, W. (2013).The Evolution Of The Nutrient Composition Of Mammalian
-      Milks. Journal of Animal Ecology. 82 (6): 1254-1264. https://pubmed.ncbi.nlm.nih.gov/23895187/</li>
-    <li>Sharp, J., Wanyonyi, S., Modepalli, V., Watt, A., Kuruppath, S., Hinds, L., Kumar, A., Abud, H., Lefevre, C., and
-      Nicholas, K. (2017). The Tammar Wallaby: A Marsupial Model To Examine The Timed Delivery And Role Of Bioactives In
-      Milk. General and Comparative Endocrinology. 244: 164-177. https://pubmed.ncbi.nlm.nih.gov/27528357/</li>
-    <li>Tsuruta, S., Misztal, I., and Lawlor, T. (2004). Genetic Correlations Among Production, Body Size, Udder,and
-      Productive Life Traits Over Time in Holsteins. Journal of Dairy Science. 87(5):1457-1468.
-      https://www.journalofdairyscience.org/article/S0022-0302(04)73297-X/fulltext</li>
-    <li>Nicholas, K. (1988). Asynchronous Dual Lactation In A Marsupial, The Tammar Wallaby. Biochemical and Biophysical
-      Research Communications. 154 (2): 529-536. Retrieved from: https://pubmed.ncbi.nlm.nih.gov/2456758/</li>
-  </ul>
-  <h3>Why do we eat spoiled foods?</h3>
-  <ul>
-    <li>Braidwood, R.J., et al. (1953) Symposium: Did Man Once Live by Beer Alone? American Anthropologist (55)4: 515-526
-      https://www.jstor.org/stable/663781</li>
-    <li>Curtis, V., de Barra, M., & Aunger R. (2011) Disgust as an adaptive system for disease avoidance behaviour.
-      Philosophical Transactions of the Royal Society B: Biological Sciences 366: 389-401.
-      https://royalsocietypublishing.org/doi/10.1098/rstb.2010.0117</li>
-    <li>FAO (2006) Good hygiene practices along the coffee chain.
-      https://www.ico.org/good-hygiene-practices-along-the-coffee-chain.asp?section=Meetings_and_Documents</li>
-    <li>Fontana C., et al. (2010) Surface microbiota analysis of Taleggio, Gorgonzola, Casera, Scimudin and Formaggio di
-      Fossa Italian cheeses. International Journal of Food Microbiology 138:205–211.
-      https://pubmed.ncbi.nlm.nih.gov/20167385/</li>
-    <li>Hart, B.L. (1990) Behavioral adaptations to pathogens and parasites: five strategies. Neuroscience and
-      Biobehavioral Reviews 14: 273–294. https://www.sciencedirect.com/science/article/pii/S0149763405800387</li>
-    <li>Katz, Sandor. Interview: August 8, 2014.</li>
-    <li>Kindstedt, P.S. (2013) Making Great Cheeses, part 2. American Society for Microbiology: Microbe Magazine 8(5):
-      361–367. http://comenius.susqu.edu/biol/312/makinggreatcheesespart2.pdf</li>
-    <li>Mennella, J.A., et al. (2001) Prenatal and post-natal flavor learning by human infants. Pediatrics 107: e88.
-      https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1351272/</li>
-  </ul>
-  <h3>Where did our food originally come from?</h3>
-  <ul>
-    <li>Khoury, C.K. et al. 2016. Origins of food crops connect countries worldwide. Proc. R. Soc. B 283(1832): 20160792.
-      http://dx.doi.org/10.1098/rspb.2016.0792</li>
-    <li>Khoury, C.K. et al. 2014. Increasing homogeneity in global food supplies and the implications for food security.
-      PNAS 111(11): 4001-4006. http://dx.doi.org/10.1073/pnas.1313490111</li>
-    <li>McGee, H. 2004. On food and cooking: the science and lore of the kitchen. Simon and Schuster.</li>
-  </ul>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Why do rivers curve? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Ferreira da Silva, A. M. (2006). On why and how do rivers meander.
+        https://www.tandfonline.com/doi/pdf/10.1080/00221686.2006.9521708</li>
+      <li>Howard, A. D. (2009). How to make a meandering river. Proceedings of the National Academy of Sciences, 106(41),
+        17245-17246. https://www.pnas.org/content/106/41/17245</li>
+      <li>Howard, A. D., & Knutson, T. R. (1984). Sufficient conditions for river meandering: A simulation approach. Water
+        Resources Research, 20(11), 1659-1667. https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/WR020i011p01659
+      </li>
+      <li>Leopold, L. B., & Wolman, M. G. (1960). River meanders. Geological Society of America Bulletin, 71(6), 769-793.
+        https://pubs.geoscienceworld.org/gsa/gsabulletin/article/71/6/769/5195/RIVER-MEANDERS</li>
+      <li>Parker, H. (1996). River Meandering as Self-Organization Process. Science,271, 1710.
+        https://www.science.org/doi/10.1126/science.271.5256.1710.</li>
+      <li>Rhoads, B. L., & Welford, M. R. (1991). Initiation of river meandering. Progress in Physical Geography, 15(2),
+        127-156. https://journals.sagepub.com/doi/10.1177/030913339101500201</li>
+      <li>Schwenk, Jon. Interview. 9 July 2014.</li>
+      <li>Seminara, G. (2006). Meanders. Journal of fluid mechanics, 554, 271-297.
+        https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/meanders/2CF806BE5C5B42FAEFC3507D9763B027
+      </li>
+      <li>Stølum, H. H. (1998). Planform geometry and dynamics of meandering rivers.Geological Society of America Bulletin,
+        110(11), 1485-1498. https://pubs.geoscienceworld.org/gsabulletin/article-lookup/110/11/1485</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Which came first, the rain or the rainforest? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Boyce, C.K. et al. 2010. Angiosperms Helped Put the Rain in the Rainforests: The Impact of Plant Physiological
+        Evolution on Tropical Biodiversity. http://www.bioone.org/doi/abs/10.3417/2009143</li>
+      <li>Boyce, C.K. and Lee, J.-E. 2010. An exceptional role for flowering plant physiology in the expansion of tropical
+        rainforests and biodiversity. http://rspb.royalsocietypublishing.org/content/277/1699/3437.short</li>
+      <li>Lee, J.‐E., and Boyce, C.K. 2010. Impact of the hydraulic capacity of plants on water and carbon fluxes in
+        tropical South America. http://onlinelibrary.wiley.com/doi/10.1029/2010JD014568/full</li>
+      <li>Lewis, S.L. et al. 2011. The 2010 Amazon Drought. http://www.sciencemag.org/content/331/6017/554.short</li>
+      <li>Malhi, Y. et al. 2008. Climate Change, Deforestation, and the Fate of the Amazon.
+        http://www.sciencemag.org/content/319/5860/169.short</li>
+      <li>Marengo, J.A. et al. 2008. The Drought of Amazonia in 2005.
+        http://journals.ametsoc.org/doi/abs/10.1175/2007JCLI1600.1</li>
+      <li>Nepstad, D. et al. 1999. Large-scale impoverishment of Amazonian forests by logging and fire.
+        http://www.nature.com/nature/journal/v398/n6727/abs/398505a0.html</li>
+      <li>Nepstad, D. et al. 2001. Road paving, fire regime feedbacks, and the future of Amazon forests.
+        http://www.sciencedirect.com/science/article/pii/S0378112701005114</li>
+      <li>Nickl, et al. 2010. Changes in Annual Land-Surface Precipitation Over the Twentieth and Early Twenty-First
+        Century. http://www.tandfonline.com/doi/abs/10.1080/00045608.2010.500241</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Can fighting wildfires make them worse? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>M.A. Finney, C.W. McHugh, and I.C. Grenfell. Stand- and landscape-level effects of prescribed burning on two
+        Arizona wildfires. Can. J. For. Res. 35: 1714–1722 (2005)</li>
+      <li>North, M.P., B.M. Collins, and S.L. Stephens. 2012. Using fire to increase the scale, benefits and future
+        maintenance of fuels treatments. Journal of Forestry 110(7):392-401.</li>
+      <li>Prichard SJ, Peterson DL, Jacobson K (2010) Fuel treatments reduce the severity of wildfire effects in dry mixed
+        conifer forest, Washington, USA. Canadian Journal of Forest Research 40, 1615–1626. doi:10.1139/X10-109</li>
+      <li>Stephens, S.L., J.D. McIver, R.E.J. Boerner, C.J. Fettig, J.B. Fontaine, B.R. Hartsough, P. Kennedy, and D.W.
+        Schwilk. 2012. Effects of forest fuel reduction treatments in the United States. BioScience 62:549-560.</li>
+      <li>Stephens, S.L., J.K. Agee, P.Z Fulé, M.P. North, W.H. Romme, T.W. Swetnam, and M.G. Turner. 2013. Managing forests
+        and fire in changing climates. Science 342:41-42.</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Why are some places so biodiverse? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Borer, ET et al. 2014. Herbivores and nutrients control grassland plant diversity via light limitation. Nature
+        508, 517–520</li>
+      <li>Fearon, J. 2003. Ethnic and Cultural Diversity by Country. Journal of Economic Growth 8: 195–222.
+        doi:10.1023/A:1024419522867.</li>
+      <li>Guyana Fourth National Report to the Convention on Biological Diversity, Guyana Environmental Protection Agency
+        2010, 83 pages</li>
+      <li>Iyigun, M.F. and A.L. Owen. 1998. Risk, entrepreneurship, and human-capital accumulation, American Economic
+        Review, No. 2, Papers and Proceedings 88 (2), 454-457.</li>
+      <li>Lambers, H (ed). 2014. Plant Life on the Sandplains in Southwest Australia, a Global Biodiversity Hotspot -
+        Kwongan Matters. Publisher: University of Western Australia Publishing, Crawley. ISBN: 978-1-74258-564-2</li>
+      <li>Maffi L. 2005. Linguistic, cultural and biological diversity. Annual Review of Anthropology, Vol. 34: 599-617</li>
+      <li>Nettle, D. 1998. Explaining global patterns of language diversity. Journal of Anthropological Archaeology,
+        17(4):354--74.</li>
+      <li>New Atlas of the British and Irish Flora. 2002., CD Preston, DA Pearman, TD Dines (editors), Oxford University
+        Press. 910 pages</li>
+      <li>Sutherland, W. J. 2003. Parallel extinction risk and global distribution of languages and species. Nature,
+        423:276--279.</li>
+      <li>S. Wennekers, A. van Stel, M. Carree, and R. Thurik, 2010. The Relationship between Entrepreneurship and Economic
+        Foundations and Trends in Entrepreneurship 6: 167-237.</li>
+      <li>Yamada G. 1996. Urban Informal Employment and Self-Employment in Developing Countries: Theory and Evidence.
+        ECONOMIC DEVELOPMENT AND CULTURAL CHANGE. 44: 289-314.</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Why are orchids so successful? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Cameron DD, Johnson I, Read DJ, Leake JR. 2008. Giving and receiving: measuring the carbon cost of mycorrhizas in
+        the green orchid, Goodyera repens. New Phytologist 180: 176–184. </li>
+      <li>Cameron DD, Leake JR, Read DJ. 2006. Mutualistic mycorrhiza in orchids: evidence from plant-fungus carbon and
+        nitrogen transfers in the green- leaved terrestrial orchid Goodyera repens. New Phytologist 171: 405–416. </li>
+      <li>Cameron DD, Preiss K, Gebauer G, Read DJ. 2009. The chlorophyll containing orchid Corallorhiza trifida derives
+        little carbon through photosynthesis. New Phytologist 183: 358–364.</li>
+      <li>Givnish, T. J., Spalink, D., Ames, M., Lyon, S. P., Hunter, S. J., Zuluaga, A., . . . Cameron, K. M. (2015).
+        Orchid phylogenomics and multiple drivers of their extraordinary diversification. Proceedings of the Royal Society
+        B: Biological Sciences Proc. R. Soc. B, 282(1814), 20151553. doi:10.1098/rspb.2015.1553 </li>
+      <li>Hopper, S. D., & Brown, A. P. (2007). A revision of Australia' s hammer orchids (Drakaea: Orchidaceae), with some
+        field data on species-specific sexually deceived wasp pollinators. Aust. Systematic Bot. Australian Systematic
+        Botany, 20(3), 252.
+        https://www.researchgate.net/publication/248900697_A_revision_of_Australia'_s_hammer_orchids_Drakaea_Orchidaceae_with_some_field_data_on_species-specific_sexually_deceived_wasp_pollinators
+      </li>
+      <li>Koopowitz, H.. (1992). A STOCHASTIC MODEL FOR THE EXTINCTION OF TROPICAL ORCHIDS. Selbyana,13, 115–122.
+        http://www.jstor.org/stable/41759800</li>
+      <li>Mccormick, M. K., Taylor, D. L., Juhaszova, K., Burnett, R. K., Whigham, D. F., & O’Neill, J. P. (2012).
+        Limitations on orchid recruitment: Not a simple picture. Molecular Ecology, 21(6), 1511-1523.
+        doi:10.1111/j.1365-294x.2012.05468. </li>
+      <li>Merckx, V. and Freudenstein, J. V. (2010), Evolution of mycoheterotrophy in plants: a phylogenetic perspective.
+        New Phytologist, 185: 605–609. https://nph.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-8137.2009.03155.x</li>
+      <li>Rasmussen, Hanne N., and Finn N. Rasmussen. "Orchid mycorrhiza: implications of a mycophagous life style." Oikos
+        118.3 (2009): 334-345.</li>
+      <li>Swarts, N. D., & Dixon, K. W. (2009). Terrestrial orchid conservation in the age of extinction. Annals of Botany,
+        104(3), 543-556. doi:10.1093/aob/mcp025 </li>
+      <li>Waterman, R. J., & Bidartondo, M. I. (2008). Deception above, deception below: Linking pollination and mycorrhizal
+        biology of orchids. Journal of Experimental Botany, 59(5), 1085-1096.
+        https://academic.oup.com/jxb/article/59/5/1085/539283</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Can plants talk? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Barto, E. K., Weidenhamer, J. D., Cipollini, D., & Rillig, M. C. (2012). Fungal superhighways: do common
+        mycorrhizal networks enhance below ground communication?. Trends in plant science, 17(11), 633-637.
+        https://www.sciencedirect.com/science/article/abs/pii/S1360138512001331</li>
+      <li>Gianoli, E., & Carrasco-Urra, F. (2014). Leaf Mimicry in a Climbing Plant Protects against Herbivory. Current
+        Biology, 24(9), 984-987. https://www.sciencedirect.com/science/article/pii/S0960982214002693</li>
+      <li>Kask, K., Kännaste, A., & Niinemets, Ü. (2013). Emission of volatile organic compounds as a signal of plant
+        stress. Scientific Bulletin of ESCORENA, 8, 79-92. https://uav.ro/jour/index.php/sbe/article/view/168</li>
+      <li>Song, Y. Y., Zeng, R. S., Xu, J. F., Li, J., Shen, X., & Yihdego, W. G. (2010). Interplant communication of tomato
+        plants through underground common mycorrhizal networks. PLoS One, 5(10), e13324.
+        https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0013324</li>
+      <li>Piesik, D., Pańka, D., Delaney, K. J., Skoczek, A., Lamparski, R., & Weaver, D. K. (2011). Cereal crop volatile
+        organic compound induction after mechanical injury, beetle herbivory (Oulema spp.), or fungal infection (Fusarium
+        spp.). Journal of plant physiology, 168(9), 878-886.
+        https://www.sciencedirect.com/science/article/abs/pii/S0176161710005584</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Why do leaves change color in the fall? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Hoch, W. A., Singsaas, E. L., & McCown, B. H. (2003). Resorption protection. Anthocyanins facilitate nutrient
+        recovery in autumn by shielding leaves from potentially damaging light levels. Plant Physiology, 133(3), 1296-1305.
+      </li>
+      <li>Feild, T. S., Lee, D. W., & Holbrook, N. M. (2001). Why leaves turn red in autumn. The role of anthocyanins in
+        senescing leaves of red-osier dogwood. Plant physiology, 127(2), 566-574.</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Who are flowers trying to seduce? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Cox, P. (1993 October). Water Pollinated Plants. Scientific American, 269(4): 68-74</li>
+      <li>Johnson, S.D. et al. (2001). Rodent pollination in the African lily Massonia depressa (Hyacinthaceae). American
+        Journal of Botany, 88: 1768–1773</li>
+      <li>Leonard, A.S. & Papaj, D.R. (2011) ‘X’ marks the spot: the possible benefits of nectar guides to bees and plants.
+        Functional Ecology, 25: 1293– 1301</li>
+      <li>Lunau, K. et al. (2011). Avoidance of achromatic colours by bees provides a private niche for hummingbirds.
+        Journal of Experimental Biology, 214: 1607–1612</li>
+      <li>Reed, S. et al. (1998). Pollination of Rafflesia (Rafflesiaceae). American Journal of Botany, 75(8): 1148-1162
+      </li>
+      <li>Rodriguez-Girones, M.A., Santamaria, L. (2004). Why are so many bird flowers red? PLoS Biology, 2:e350</li>
+      <li>Rosas-Guerrero, V. et al. (2014). A quantitative review of pollination syndromes: do floral traits predict
+        effective pollinators? Ecology Letters, 17: 388–400</li>
+      <li>Schiestl, F.P. & Dotterl, S. (2012) The evolution of floral scent and olfactory preferences in pollinators:
+        coevolution or pre-existing bias? Evolution, 66: 2042–2055</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Why are fish getting smaller? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Garcia et al. 2012. https://archimer.ifremer.fr/doc/00070/18121/15670.pdf</li>
+      <li>Halliday and Pinhorn. 2009. https://www.sciencedirect.com/science/article/abs/pii/S0165783609000423</li>
+      <li>Halliday and Pinhorn. 2002. https://www.sciencedirect.com/science/article/abs/pii/S0165783602000796</li>
+      <li>Jorgensen et al. 2007. https://archimer.ifremer.fr/doc/2007/publication-3302.pdf</li>
+      <li>Schmidt. 2003. https://www.oecd.org/japan/2507622.pdf</li>
+      <li>Shackell and Frank. 2007. http://www.int-res.com/articles/meps2007/336/m336p235.pdf</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Why don't sheep shrink in the rain? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Lodish H, Berk A, Zipursky SL., et al. “The Making or Breaking of Covalent Bonds Involves Large Energy Changes”.
+        Molecular Cell Biology. Section 2:1 (22). https://www.ncbi.nlm.nih.gov/books/NBK21595/#_A261_</li>
+      <li>Wallach, J. “A Comprehensive Guide to the Clandestine Chemistry of 'Breaking Bad'” Vice. (2013).
+        https://motherboard.vice.com/en_us/article/a-comprehensive-guide-to-the-clandestine-chemistry-of-breaking-bad.</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">How did whales get so big? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Kaiser, A., Klok, C., Socha, J. Lee, W. Quinlan, M., and Harrison, J. (2007). Increase in tracheal investment with
+        beetle size supports hypothesis of oxygen limitation on insect gigantism. 13198-13203. PNAS.
+        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1941816/</li>
+      <li>Sander, P. Christian, A., Clauss, M., Fechner, R. Gee, C., Griebler, E., Gunga, H., Hummel, J., Mallison, H.,
+        Perry, S., Preuschoft, H., Rauhut, O., Remes, K., Tutken, T., Wings, O. and Witzel, U. (2011). Biology of the
+        sauropod dinosaurs:the evolution of gigantism. Biological Reviews. 86(1): 117–155.
+        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3045712/</li>
+      <li>Taylor, M and Weder, M. (2013). Why sauropods had long necks; and why giraffes have short necks. PeerJ 1:e36.
+        https://arxiv.org/pdf/1209.5439.pdf.</li>
+      <li>Verberk, W. and Bilton, D. (2011). Can Oxygen Set Thermal Limits in an Insect and Drive Gigantism? PLOS One. 6(7):
+        e22610. http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0022610</li>
+      <li>Slater, G., Goldbogen, J., Pyenson, N. (2017). Independent evolution of baleen whale gigantism linked to
+        Plio-Pleistocene ocean dynamics. Proceedings of the Royal Society B. 284: 20170546.
+        http://rspb.royalsocietypublishing.org/content/284/1855/20170546.</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Which of these is a bee? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Brower J.V.Z. & Brower L.P., (1965). Experimental studies of mimicry. 8. Further investigations of honeybees (Apis
+        mellifera) and their dronefly mimics (Eristalis spp.). American Naturalist 99:173–187.
+        https://www.jstor.org/stable/pdf/2459113.pdf</li>
+      <li>Dyer, F., Jan 2017, personal communication. </li>
+      <li>Franks, D. W. and Noble, J., (2002). The origins of mimicry rings. Standish, R. K., Bedau, M. A. and Abbass, H.
+        A.(eds.) In Artificial Life VIII: Proceedings of the Eighth International Conference on Artificial Life. MIT Press.,
+        pp. 186-191. http://alife8.alife.org/proceedings/sub2852.pdf</li>
+      <li>Pasteur, G., (1982). A classificatory review of mimicry systems. Annual Review of Ecology & Systematics, 13:
+        169–199. http://www.annualreviews.org/doi/abs/10.1146/annurev.es.13.110182.001125?journalCode=ecolsys.</li>
+      <li>Rettenmeyer, C.W., (1970). Insect Mimicry. Annual Review of Entomology 15: 43-74.
+        http://dx.doi.org/10.1146/annurev.en.15.010170.000355.</li>
+      <li>Wilson, J., Jan 2017, personal communication.</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Why don't migrating birds take the shortest route? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Horton, K., Van Doren, B., Stepanian, P.,Hochachka, W., Farnsworth, A., and Kelly, J. (2016). Nocturnally
+        migrating songbirds drift when they can and compensate when they must. Scientific Reports 6, 1-8. Nature.
+        https://www.nature.com/articles/srep21249</li>
+      <li>Kranstauber,B., Weinzierl, R., Wikelski, M., Safi, K. (2015). Global aerial flyways allow efficient travelling.
+        Ecology Letters. 18: 133. http://onlinelibrary.wiley.com/doi/10.1111/ele.12528/full</li>
+      <li>Liechti, F. (2006). Birds: blowin’ by the wind.Journal of Ornithology. 47: 202–211.
+        https://link.springer.com/article/10.1007/s10336-006-0061-9.</li>
+      <li>Reddy, G., Celani, A., Sejnowski, T., and Vergassola, M. (2016). Learning to soar in turbulent environments. PNAS.
+        113(33):E4877-84. https://www.ncbi.nlm.nih.gov/pubmed/27482099</li>
+      <li>Shamoun-Baranes, J., Leshem, Y., Yom-Tov, Y., and Liech, O. (2003). Differential use of thermal convection by
+        soaring birds over central Israel. The Condor. 105:208-218. Retrieved from: https://www.jstor.org/stable/1370541.
+      </li>
+      <li>Leshem, Yossi. (2017) Professor of Life Science, Tel-Aviv University. Personal Communication.</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Does it really make sense to mate for life? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Barash, D. P., & Lipton, J. E. (2002). The myth of monogamy: Fidelity and infidelity in animals and people.
+        Macmillan.</li>
+      <li>Brooked, M. G., Rowley, I., Adams, M., & Baverstock, P. R. (1990). Promiscuity: an inbreeding avoidance mechanism
+        in a socially monogamous species?. Behavioral Ecology and Sociobiology, 26(3), 191-199.</li>
+      <li>Chapais, B. (2013). Monogamy, strongly bonded groups, and the evolution of human social structure. Evolutionary
+        Anthropology: Issues, News, and Reviews, 22(2), 52-65.</li>
+      <li>de Waal, F. B., & Gavrilets, S. (2013). Monogamy with a purpose. Proceedings of the National Academy of Sciences,
+        110(38), 15167-15168.</li>
+      <li>Double, M., & Cockburn, A. (2000). Pre--dawn infidelity: females control extra-pair mating in superb fairy--wrens.
+        Proceedings of the Royal Society of London. Series B: Biological Sciences, 267(1442), 465-470.</li>
+      <li>Kraaijeveld, K., Carew, P. J., Billing, T., Adcock, G. J., & Mulder, R. A. (2004). Extra‐pair paternity does not
+        result in differential sexual selection in the mutually ornamented black swan (Cygnus atratus). Molecular Ecology,
+        13(6), 1625-1633.</li>
+      <li>Ophir, A. G., Phelps, S. M., Sorin, A. B., & Wolff, J. O. (2008). Social but not genetic monogamy is associated
+        with greater breeding success in prairie voles. Animal Behaviour, 75(3), 1143-1154.</li>
+      <li>Reichard, U. (2002). Monogamy - a Variable Relationship. MaxPlanckResearch Conference Report.</li>
+      <li>Thusius, K. J., Peterson, K. A., Dunn, P. O., & Whittingham, L. A. (2001). Male mask size is correlated with
+        mating success in the common yellowthroat.Animal Behaviour, 62(3), 435-446.</li>
+      <li>Wan, D., Chang, P., & Yin, J. (2013). Causes of extra-pair paternity and its inter-specific variation in socially
+        monogamous birds. Acta Ecologica Sinica, 33(3), 158-166.</li>
+      <li>Webster, M. S., Tarvin, K. A., Tuttle, E. M., & Pruett‐Jones, S. (2007). Promiscuity drives sexual selection in a
+        socially monogamous bird. Evolution,61(9), 2205-2211.</li>
+      <li>Monogamous primates: http://www-personal.umich.edu/~phyl/a...</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Why do some animals eat their babies? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Day, C. S., & Galef, B. G. (1977). Pup cannibalism: One aspect of maternal behavior in golden hamsters. Journal of
+        Comparative and Physiological Psychology, 91(5), 1179-1189. doi:10.1037/h0077386</li>
+      <li>Gilbert, W. M., Nolan, P. M., Stoehr, A. M., & Hill, G. E. (2005). Filial Cannibalism at a House Finch Nest. The
+        Wilson Bulletin, 117(4), 413-415. doi:10.1676/04-003.1.
+        http://www.jstor.org/stable/20060130?seq=1#page_scan_tab_contents</li>
+      <li>Huang, W. (2008). Predation risk of whole-clutch filial cannibalism in a tropical skink with maternal care.
+        Behavioral Ecology, 19(6), 1069-1074. http://beheco.oxfordjournals.org/content/19/6/1069.full#ref-1</li>
+      <li>Klug, H., & Bonsall, M. (2007). When to Care for, Abandon, or Eat Your Offspring: The Evolution of Parental Care
+        and Filial Cannibalism. The American Naturalist, 170(6), 886-901. doi:10.1086/522936.
+        http://www.journals.uchicago.edu/doi/10.1086/522936#rf13</li>
+      <li>Klug, H., & Lindstrom, K. (2008). Hurry-up and hatch: Selective filial cannibalism of slower developing eggs.
+        Biology Letters, 4(2), 160-162. doi:10.1098/rsbl.2007.0589. http://rsbl.royalsocietypublishing.org/content/4/2/160
+      </li>
+      <li>Why do some fish eat their own eggs? - Phys.org. (n.d.). http://phys.org/news/2016-02-fish-eggs.html</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Which plants and animals should we save? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>IUCN 2014. The IUCN Red List of Threatened Species. Version 2014.3. http://www.iucnredlist.org/</li>
+      <li>Small, E. (2011) The new Noah’s Ark: beautiful and useful species only. Part 1. Biodiversity conservation issues
+        and priorities. Biodiversity 12(4): 232 - 247. https://www.tandfonline.com/doi/abs/10.1080/14888386.2011.642663#
+      </li>
+      <li>Smith, R.J., Verissimo, D.; Isaac, N.J.B., & Jones, K.E. (2012) Identifying Cinderella species: uncovering mammals
+        with conservation flagship appeal. Conservation Letters, 5 (3): 205 - 212.
+        https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/j.1755-263X.2012.00229.x</li>
+      <li>Sitas, N., Baillie, J.E.M., and Isaac, N.J.B. (2009) What are we saving? Developing a standardized approach for
+        conservation action. Animal Conservation, 12(3): 231- 237.
+        https://zslpublications.onlinelibrary.wiley.com/doi/full/10.1111/j.1469-1795.2009.00244.x</li>
+      <li>US Fish and Wildlife Service. (1999) South Florida Multi-Species Recovery Plan. Mangroves: 3-519 - 3-552.
+        https://www.fws.gov/verobeach/msrppdfs/mangroves.pdf</li>
+      <li>World Wildlife Fund. (2014) Annual Report.
+        http://assets.worldwildlife.org/financial_reports/21/reports/original/2014_Annual_Report.pdf?1418325091&_ga=1.146888247.1239564205.1427657892
+      </li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Why is it so hard to get rid of invasive species? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Boland, C.R.J., Smith, M.J., Maple D.J., Tiernan, B., Barr, R., Reeves, R., and Napier, F. (2011). Heli-baiting
+        using low concentration fipronil to control invasive yellow crazy ant supercolonies on Christmas Island, Indian
+        Ocean. 152-156 In: Veitch, C. R.; Clout, M. N. and Towns, D. R. (eds.). 2011. Island invasives: eradication and
+        management. IUCN, Gland, Switzerland. http://www.issg.org/pdf/publications/island_invasives/pdfhqprint/2boland.pdf
+      </li>
+      <li>Csurhes, S. and Hankamer, C. (2012) Pest Animal Risk Assessment: Yellow Crazy Ant (Anoplolepis gracilipes).
+        Queensland Department of Employment, Economic Development and Innovation.
+        https://www.daf.qld.gov.au/__data/assets/pdf_file/0003/63372/IPA-Yellow-Crazy-Ant-Risk-Assessment.pdf</li>
+      <li>Hoffman, B. (2009) Dhimurru Yellow Crazy Ant Management Plan: a report prepared for Dhimurru Aboriginal
+        Corporation. http://www.dhimurru.com.au/uploads/8/9/3/6/8936577/dhimurru_draft_plan_of_crazy_ant_management_.pdf
+      </li>
+      <li>Hoffmann, B.D., Auina, S., and Stanley, M.C. (2014). Targeted Research to Improve Invasive Species Management:
+        Yellow Crazy Ant Anoplolepis gracilipes in Samoa. PLoS ONE 9(4): e95301.
+        https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0095301</li>
+      <li>Parkes, J., and Murphy, E. (2003). Management of introduced mammals in New Zealand. New Zealand Journal of Ecology
+        30: 335--359. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.877&rep=rep1&type=pdf</li>
+      <li>Pimentel, D., Zuniga, R. and Morrison, D. (2005). Update on the environmental and economic costs associated with
+        alien invasive species in the United States. Ecological Economics, 52(3): 273-288.
+        https://www.forestpests.org/pdf/Update%20on%20the%20environmental%20and%20economic%20costs%20associated%20with%20alien-invasive%20species%20in%20the%20US.pdf
+      </li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Why do some plants and animals thrive in cities? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>DeVault, T.L., Rhodes O.E., & Shivik, J.A. (2003) Scavenging by vertebrates: Behavioral, ecological, and
+        evolutionary perspectives on an important energy transfer pathway in terrestrial ecosystems. Oikos 102: 225- 234.
+        https://digitalcommons.unl.edu/cgi/viewcontent.cgi?/&article=1263&context=icwdm_usdanwrc</li>
+      <li>Flies, A., personal communication, 2015.</li>
+      <li>Houston, D. C. & Cooper, J. (1975) The digestive tract of the whiteback griffon vulture and its role in disease
+        transmission among wild ungulates. Journal of Wildlife Disease 11: 306–313.
+        https://www.ncbi.nlm.nih.gov/pubmed/239254</li>
+      <li>Marín-Arroyo, A.B., Fosse, P., & Vigne, J.D. (2009) Probable evidences of bone accumulation by Pleistocene bearded
+        vulture at the archaeological site of El Mirón Cave (Spain). Journal of Archaeological Science 36: 284–296.
+        https://www.sciencedirect.com/science/article/pii/S0305440308002082</li>
+      <li>Ohishi, I., Sakaguchi, G., Riemann, H., Behymer, D., & Hurvell, B. (1979) Antibodies to Clostridium botulinum
+        toxins in free-living birds and mammals. Journal of Wildlife Disease 15: 3–9.
+        https://www.ncbi.nlm.nih.gov/pubmed/459044</li>
+      <li>Roggenbuck, M., Schnell, I.B., Blom, N., Bælum, J., Bertelsen, M.F., Pontén, T.S., Sørensen, S.J., Thomas, M.,
+        Gilbert, P., Graves, G.R., & Hansen, L.H. (2014). The microbiome of New World vultures. Nature Communications
+        5:5498. https://www.nature.com/articles/ncomms6498</li>
+      <li>Rozen, D.E., Engelmoer, D.J.P. & Smiseth, P.T. (2008) Antimicrobial strategies in burying beetles breeding on
+        carrion .Proceedings of the National Academy of Sciences 105: 17890-17895.
+        https://www.pnas.org/content/105/46/17890.abstract</li>
+      <li>Selva, N., Jędrzejewska, B., Jędrzejewski, W. & Wajrak, A. (2005): Factors affecting carcass use by a guild of
+        scavengers in European temperate woodland. Canadian Journal of Zoology 83: 1590-1601.
+        http://zbs.bialowieza.pl/g2/pdf/1509.pdf</li>
+      <li>Von Hoermann, C., Steiger, S., Muller, J.K., & Ayasse, M. (2013) Too fresh is unattractive! The attraction of
+        newly emerged Nicrophorus vespilloides females to odour bouquets of large cadavers at various stages of
+        decomposition. PLoS One 8: e58524. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0058524</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Why are some diseases so deadly? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Blanquart, F., Grabowski, M.K., Herbeck, J., Nalugoda, F., Serwadda, D., Eller, M.A., Robb, M.L., Gray, R.,
+        Kigozi, G., Laeyendecker, O., Lythgoe, K.A., Nakigozi, G., Quinn, T.C., Reynolds, S.J., Wawer, M.J., Fraser, C.
+        (2016). A transmission-virulence evolutionary trade-off explains attenuation of HIV-1 in Uganda. Elife 5: 5.</li>
+      <li>de Roode, J.C., Yates, A.J., & Altizer, S. (2008). Virulence-transmission trade-offs and population divergence in
+        virulence in a naturally occurring butterfly parasite. Proceedings of the National Academy of Science 105: 7489-7494
+      </li>
+      <li>Ewald, P.W. (1983). Host-parasite relations, vectors, and the evolution of disease severity. Annual Reviews
+        Ecology & Systematics 14: 465-485</li>
+      <li>Ewald, P.W. (1991). Waterborne transmission and the evolution of virulence among gastrointestinal bacteria.
+        Epidemiology & Infection 106: 83-119.</li>
+      <li>Ewald, P.W. (1991). Transmission modes and the evolution of virulence: with special reference to cholera,
+        influenza, and AIDS. Human Nature 2: 1-30.</li>
+      <li>Galvani, A.P. (2003) Epidemiology meets evolutionary ecology. Trends in Ecology & Evolution 18: 132-139.</li>
+      <li>Lipsitch, M. & Moxon, E.R. (1997). Virulence and transmissibility of pathogens: what is the relationship? Trends
+        in Microbiology 5: 31-37.</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">How much food is there on earth? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Atkinson, A., Siegel, V., et al. 2009. A re-appraisal of the total biomass and annual production of Antarctic
+        krill. Deep Sea Research Part I: Oceanographic Research Papers. Volume 56, Issue 5, 727-740</li>
+      <li>FAO. World Food Situation: https://www.fao.org/worldfoodsituation/csdb/en/</li>
+      <li>FAO. World Cassava Situation and Recent Trends: https://www.fao.org/3/x4007e/X4007E04.htm</li>
+      <li>Kaspari, M., Weiser, M.D. 2012. Energy, taxonomic aggregation, and the geography of ant abundance. Ecography
+        35:65-72.</li>
+      <li>Penn State University Extension. Oil factsheet: oilseed presses. 7pp (undated).</li>
+      <li>Sanderson, MG. 1996. Biomass of termites and their emissions of methane and carbon dioxide: A global database.
+        Global Biogeochemical Cycles 10, 543-557.</li>
+      <li>USDA ISSN: 1554-9089, World Agricultural Supply and Demand Estimates, February 8, 2018;</li>
+      <li>Wilson, RW. et al. 2009, Contribution of Fish to the Marine Inorganic Carbon Cycle, Science 323, 359-362.</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">How is milk REALLY made? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Skibiel, A., Downing, L., Orr, T., and Hood, W. (2013).The Evolution Of The Nutrient Composition Of Mammalian
+        Milks. Journal of Animal Ecology. 82 (6): 1254-1264. https://pubmed.ncbi.nlm.nih.gov/23895187/</li>
+      <li>Sharp, J., Wanyonyi, S., Modepalli, V., Watt, A., Kuruppath, S., Hinds, L., Kumar, A., Abud, H., Lefevre, C., and
+        Nicholas, K. (2017). The Tammar Wallaby: A Marsupial Model To Examine The Timed Delivery And Role Of Bioactives In
+        Milk. General and Comparative Endocrinology. 244: 164-177. https://pubmed.ncbi.nlm.nih.gov/27528357/</li>
+      <li>Tsuruta, S., Misztal, I., and Lawlor, T. (2004). Genetic Correlations Among Production, Body Size, Udder,and
+        Productive Life Traits Over Time in Holsteins. Journal of Dairy Science. 87(5):1457-1468.
+        https://www.journalofdairyscience.org/article/S0022-0302(04)73297-X/fulltext</li>
+      <li>Nicholas, K. (1988). Asynchronous Dual Lactation In A Marsupial, The Tammar Wallaby. Biochemical and Biophysical
+        Research Communications. 154 (2): 529-536. Retrieved from: https://pubmed.ncbi.nlm.nih.gov/2456758/</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Why do we eat spoiled foods? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Braidwood, R.J., et al. (1953) Symposium: Did Man Once Live by Beer Alone? American Anthropologist (55)4: 515-526
+        https://www.jstor.org/stable/663781</li>
+      <li>Curtis, V., de Barra, M., & Aunger R. (2011) Disgust as an adaptive system for disease avoidance behaviour.
+        Philosophical Transactions of the Royal Society B: Biological Sciences 366: 389-401.
+        https://royalsocietypublishing.org/doi/10.1098/rstb.2010.0117</li>
+      <li>FAO (2006) Good hygiene practices along the coffee chain.
+        https://www.ico.org/good-hygiene-practices-along-the-coffee-chain.asp?section=Meetings_and_Documents</li>
+      <li>Fontana C., et al. (2010) Surface microbiota analysis of Taleggio, Gorgonzola, Casera, Scimudin and Formaggio di
+        Fossa Italian cheeses. International Journal of Food Microbiology 138:205–211.
+        https://pubmed.ncbi.nlm.nih.gov/20167385/</li>
+      <li>Hart, B.L. (1990) Behavioral adaptations to pathogens and parasites: five strategies. Neuroscience and
+        Biobehavioral Reviews 14: 273–294. https://www.sciencedirect.com/science/article/pii/S0149763405800387</li>
+      <li>Katz, Sandor. Interview: August 8, 2014.</li>
+      <li>Kindstedt, P.S. (2013) Making Great Cheeses, part 2. American Society for Microbiology: Microbe Magazine 8(5):
+        361–367. http://comenius.susqu.edu/biol/312/makinggreatcheesespart2.pdf</li>
+      <li>Mennella, J.A., et al. (2001) Prenatal and post-natal flavor learning by human infants. Pediatrics 107: e88.
+        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1351272/</li>
+    </ul>
+  </b-collapse>
+  <b-collapse :open="false">
+    <template #trigger="props">
+      <h3 class="sources-heading">Where did our food originally come from? <b-icon :icon="props.open ? 'menu-down' : 'menu-right'" size="is-medium"></b-icon></h3>
+    </template>
+    <ul>
+      <li>Khoury, C.K. et al. 2016. Origins of food crops connect countries worldwide. Proc. R. Soc. B 283(1832): 20160792.
+        http://dx.doi.org/10.1098/rspb.2016.0792</li>
+      <li>Khoury, C.K. et al. 2014. Increasing homogeneity in global food supplies and the implications for food security.
+        PNAS 111(11): 4001-4006. http://dx.doi.org/10.1073/pnas.1313490111</li>
+      <li>McGee, H. 2004. On food and cooking: the science and lore of the kitchen. Simon and Schuster.</li>
+    </ul>
+  </b-collapse>
 </div>
 
 <!-- <div class="columns is-multiline">

@@ -326,6 +326,10 @@ ul.footer-contact {
     }
   }
 
+  .sources-heading {
+    text-decoration: underline;
+  }
+
   .preorder-links {
     list-style: none;
     margin: 0;
@@ -370,6 +374,12 @@ ul.footer-contact {
         bottom: 0px;
         right: -89px;
         z-index: -1;
+      }
+
+      @media screen and (max-width: $tablet) {
+        &:after {
+          right: -130px;
+        }
       }
 
       @media screen and (min-width: $tablet) and (max-width: $desktop) {
