@@ -3,10 +3,12 @@ b-carousel.book-carousel(
   :autoplay="false"
   with-carousel-list
   :indicator="false"
+  :value="0"
+  v-if="loaded"
 )
   b-carousel-item(v-for="(item, i) in items", :key="i")
     figure.image
-      img(:src="item.image")
+      b-image(:src="item.image", ratio="16by10")
   template(#list="props")
     b-carousel-list(
       v-model="props.active"
@@ -37,11 +39,12 @@ const PAGES = [
 export default {
   name: 'book-carousel'
   , props: {
-    image: {
-      type: String
-    }
+  }
+  , mounted(){
+    this.loaded = true
   }
   , data: () => ({
+    loaded: false,
     al: {
       hasGrayscale: true,
       itemsToShow: 4,

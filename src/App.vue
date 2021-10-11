@@ -61,7 +61,7 @@ $navBackground: #333
 .top-nav
   background: $navBackground
   .banner
-    height: 300px
+    height: 280px
     overflow: hidden
     .banner-section
       position: relative
