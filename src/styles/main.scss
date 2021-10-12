@@ -328,6 +328,8 @@ ul.footer-contact {
 
   .sources-heading {
     text-decoration: underline;
+    font-size: 1.5em;
+    margin: 0.5em 0;
   }
 
   .preorder-links {
@@ -377,8 +379,9 @@ ul.footer-contact {
       }
 
       @media screen and (max-width: $tablet) {
+        padding-bottom: 1.2em;
         &:after {
-          right: -130px;
+          display: none;
         }
       }
 

@@ -26,14 +26,17 @@ const PAGES = [
   '/public/book/pages/HDWGSB-min.jpg',
   '/public/book/pages/HDWGSB2-min.jpg',
   '/public/book/pages/HDWGSB3-min.jpg',
-  // '/public/book/pages/HDWGSB4-min.jpg',
   '/public/book/pages/HDWGSB5-min.jpg',
-  '/public/book/pages/HDWGSB6-min.jpg',
-  '/public/book/pages/HDWGSB7-min.jpg',
+  // '/public/book/pages/HDWGSB6-min.jpg',
   '/public/book/pages/HDWGSB8-min.jpg',
   '/public/book/pages/HDWGSB9-min.jpg',
-  '/public/book/pages/HDWGSB10-min.jpg',
-  '/public/book/pages/HDWGSB12-min.jpg'
+  // '/public/book/pages/HDWGSB10-min.jpg',
+  // '/public/book/pages/HDWGSB13-min.jpg',
+  // '/public/book/pages/HDWGSB14-min.jpg',
+  // '/public/book/pages/HDWGSB15-min.jpg',
+  '/public/book/pages/HDWGSB16-min.jpg',
+  '/public/book/pages/HDWGSB12-min.jpg',
+
 ]
 
 export default {
