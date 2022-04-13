@@ -348,8 +348,11 @@ ul.footer-contact {
         text-transform: uppercase;
         font-weight: bold;
         color: $fontColorTitle;
+        text-decoration: none;
+        border-bottom: 1px solid #454545;
       }
     }
+
   }
 
   .top-section {
