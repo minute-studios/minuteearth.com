@@ -1,5 +1,7 @@
 language: ruby
-rvm: 2.3.7
+rvm: 2.6
+node_js:
+ - 10
 before_install:
   - yarn install
 install: bundle install
