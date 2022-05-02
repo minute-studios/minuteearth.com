@@ -3,10 +3,10 @@ a(:href="link").lesson-plan-card.card
   .card-image
     figure.image.is-16by9
       img(:src="thumb", :alt="title")
-  .card-content
+  .card-content(:class="{ condensed: !title }")
     .content
       .subtitle {{ subtitle }}
-      .title {{ title }}
+      .title(v-if="title") {{ title }}
 </template>
 
 <script>
@@ -59,6 +59,8 @@ $blue: #295abe
     color: white
     padding: 1.3rem 1.5rem
     border-radius: 0 0 20px 20px
+    &.condensed
+      padding: 0.75rem 1.5rem
     .title,
     .subtitle
       color: white

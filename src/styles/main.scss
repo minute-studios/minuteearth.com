@@ -470,6 +470,9 @@ ul.footer-contact {
       &:nth-child(3) a {
         background: $button3Color;
       }
+      &:nth-child(4) a {
+        background: darken($button3Color, 8);
+      }
 
       a {
         &:hover,
@@ -522,7 +525,7 @@ ul.footer-contact {
     font-weight: normal;
   }
 
-  .ribbon-title {
+  h2.ribbon-title {
     position: relative;
     top: 1em;
     z-index: 1;
@@ -530,16 +533,17 @@ ul.footer-contact {
     background: $blue;
     color: white;
     text-align: right;
-    padding: 0.2em 2.3em;
+    padding: .2em 1em .2em 1em;
     border-radius: 0 1em 1em 0;
-    width: 50%;
     letter-spacing: 1px;
     font-weight: normal;
     text-transform: none;
     line-height: 1.1;
-    min-width: 400px;
+    display: inline-block;
+    min-width: 300px;
+    width: calc(50% - 204px);
 
-    a {
+    > a {
       color: white;
       text-decoration: none;
       &:hover,

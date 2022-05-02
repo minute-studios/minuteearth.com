@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="page-book-alt">
+  <h2 class="ribbon-title">
+    <a href="">Activity Pages</a>
+  </h2>
+
+  {% if page.hero %}
+  <section class="hero is-primary">
+    <div class="hero-image">
+      <figure class="image">
+        <img src="{{ page.hero | link }}" />
+      </figure>
+    </div>
+  </section>
+  {% endif %}
+
+  {{content}}
+</div>
