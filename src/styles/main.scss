@@ -1,3 +1,4 @@
+@use "sass:math";
 // Common
 @import "./_variables";
 @import "./_fonts";
@@ -248,9 +249,9 @@ ul.footer-contact {
   $button1Color: #D5E4E5;
   $button2Color: #BADDE5;
   $button3Color: #98D5DD;
-  $fontSizeTitle: 3em / 2;
+  $fontSizeTitle: math.div(3em, 2);
   $fontSizeBody: 16px;
-  $fontSizeButton: 1.6em / 2;
+  $fontSizeButton: math.div(1.6em, 2);
 
   .content {
     font-size: $fontSizeBody;
