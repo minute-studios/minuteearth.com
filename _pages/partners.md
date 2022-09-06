@@ -40,7 +40,7 @@ Recent examples:
 
 ## Collaborators
 
-We play nicely with fellow creators. We’re happy to brainstorm ideas with all sorts of Youtubers and other (ugh) “influencers.” We’ve had the recent pleasure of working with:
+We play nicely with fellow creators. We’re happy to brainstorm ideas with all sorts of YouTubers and other social media influencers. We’ve had the recent pleasure of working with:
 
 <div class="columns is-multiline">
   <div class="column is-half">
