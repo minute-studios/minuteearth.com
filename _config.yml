@@ -10,10 +10,13 @@ exclude:
   - "src"
   - "vendor" #jekyll travis
 
+commonmark:
+  options: ["UNSAFE", "SMART", "FOOTNOTES"]
+
 collections:
   pages:
     output: true
-    permalink: /:path/
+    permalink: /:path
   team_members:
     output: false
     sort_by: name
